@@ -1,0 +1,1714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 10/11/19 16:48:32 by Eclipse SUMO netconvert Version 1.2.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <osm-files value="monash.osm"/>
+    </input>
+
+    <output>
+        <output-file value="monash.net.xml"/>
+        <output.street-names value="true"/>
+        <street-sign-output value="monash_street_signs.xml"/>
+        <ptstop-output value="monash_public_transport_stops.xml"/>
+        <ptline-output value="monash_public_transport_lines.xml"/>
+        <ptline-clean-up value="true"/>
+        <parking-output value="monash_parking_areas.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <speed-in-kmh value="true"/>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+        <opposites.guess value="true"/>
+        <opposites.guess.fix-lengths value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <edge_removal>
+        <remove-edges.isolated value="true"/>
+    </edge_removal>
+
+    <junctions>
+        <junctions.join value="true"/>
+    </junctions>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <poi id="-102665913.58.68" type="yield" color="red" x="2334.69" y="1817.14" angle="0"/>
+    <poi id="-10539447.111.24" type="priority" color="yellow" x="2088.72" y="1413.24" angle="0"/>
+    <poi id="-10585181#0.3.45" type="yield" color="red" x="2649.17" y="880.76" angle="0"/>
+    <poi id="-10585181#1.29.25" type="priority" color="yellow" x="2660.13" y="876.73" angle="0"/>
+    <poi id="-10585181#2.3.11" type="priority" color="yellow" x="2700.16" y="865.25" angle="0"/>
+    <poi id="-10585181#3.2.49" type="priority" color="yellow" x="2715.07" y="860.98" angle="0"/>
+    <poi id="-10585181#4.3.16" type="priority" color="yellow" x="2729.39" y="856.87" angle="0"/>
+    <poi id="-10585181#5.0.28" type="priority" color="yellow" x="2744.35" y="852.58" angle="0"/>
+    <poi id="-10585197#1.93.18" type="priority" color="yellow" x="2766.62" y="849.62" angle="0"/>
+    <poi id="-10585197#2.25.31" type="priority" color="yellow" x="2778.72" y="948.48" angle="0"/>
+    <poi id="-10670468#2.0.00" type="priority" color="yellow" x="2662.21" y="994.48" angle="0"/>
+    <poi id="-10670468#3.38.09" type="priority" color="yellow" x="2653.82" y="996.98" angle="0"/>
+    <poi id="-11040357#0.116.84" type="priority" color="yellow" x="2190.31" y="901.38" angle="0"/>
+    <poi id="-11040357#1.11.19" type="yield" color="red" x="2237.09" y="811.89" angle="0"/>
+    <poi id="-11040357#2.29.50" type="priority" color="yellow" x="2251.77" y="793.82" angle="0"/>
+    <poi id="-11294993.60.88" type="priority" color="yellow" x="2518.57" y="1319.56" angle="0"/>
+    <poi id="-11294994.135.55" type="priority" color="yellow" x="2375.04" y="1321.99" angle="0"/>
+    <poi id="-113700441#1.30.76" type="yield" color="red" x="3232.47" y="1456.18" angle="0"/>
+    <poi id="-113700442#0.57.76" type="priority" color="yellow" x="3206.75" y="1375.20" angle="0"/>
+    <poi id="-113700442#1.8.69" type="right before left" color="255,153,0" x="3276.18" y="1365.57" angle="0"/>
+    <poi id="-113700443.10.32" type="right before left" color="255,153,0" x="3247.90" y="1290.04" angle="0"/>
+    <poi id="-113700444.2.16" type="right before left" color="255,153,0" x="3254.55" y="1413.40" angle="0"/>
+    <poi id="-113700446#0.10.24" type="right before left" color="255,153,0" x="3268.08" y="1356.81" angle="0"/>
+    <poi id="-113700446#2.31.31" type="right before left" color="255,153,0" x="3261.27" y="1331.19" angle="0"/>
+    <poi id="-113700446#3.27.63" type="right before left" color="255,153,0" x="3239.84" y="1297.55" angle="0"/>
+    <poi id="-113700447#0.11.03" type="yield" color="red" x="3247.08" y="1483.62" angle="0"/>
+    <poi id="-113700447#1.48.42" type="right before left" color="255,153,0" x="3249.68" y="1503.69" angle="0"/>
+    <poi id="-113700448#1.0.00" type="right before left" color="255,153,0" x="3248.19" y="1422.66" angle="0"/>
+    <poi id="-113700449#0.8.49" type="yield" color="red" x="3204.47" y="1287.39" angle="0"/>
+    <poi id="-113700449#2.47.01" type="priority" color="yellow" x="3207.48" y="1310.66" angle="0"/>
+    <poi id="-113700451.8.29" type="yield" color="red" x="3275.10" y="1335.76" angle="0"/>
+    <poi id="-120422881.9.57" type="right before left" color="255,153,0" x="2798.09" y="706.98" angle="0"/>
+    <poi id="-120422882.9.07" type="right before left" color="255,153,0" x="2784.39" y="709.11" angle="0"/>
+    <poi id="-139332149.16.10" type="yield" color="red" x="1666.06" y="779.29" angle="0"/>
+    <poi id="-139332158.0.00" type="yield" color="red" x="3005.91" y="567.63" angle="0"/>
+    <poi id="-139332160.2.34" type="yield" color="red" x="3006.21" y="580.37" angle="0"/>
+    <poi id="-139332161.5.25" type="yield" color="red" x="3009.16" y="556.82" angle="0"/>
+    <poi id="-146181191.97.02" type="priority" color="yellow" x="2906.50" y="1300.51" angle="0"/>
+    <poi id="-149270942#0.1.47" type="right before left" color="255,153,0" x="2660.23" y="973.39" angle="0"/>
+    <poi id="-149270942#1.0.00" type="right before left" color="255,153,0" x="2658.11" y="964.89" angle="0"/>
+    <poi id="-161622033.109.32" type="right before left" color="255,153,0" x="3299.14" y="1140.05" angle="0"/>
+    <poi id="-161622036#0.90.28" type="right before left" color="255,153,0" x="3234.58" y="1179.19" angle="0"/>
+    <poi id="-161622036#1.49.70" type="right before left" color="255,153,0" x="3217.54" y="1211.00" angle="0"/>
+    <poi id="-172916437#0.276.28" type="priority" color="yellow" x="2002.54" y="1274.38" angle="0"/>
+    <poi id="-172916437#1.196.68" type="priority" color="yellow" x="1967.18" y="986.31" angle="0"/>
+    <poi id="-172916438.74.04" type="priority" color="yellow" x="1918.99" y="1298.86" angle="0"/>
+    <poi id="-172916442.253.12" type="yield" color="red" x="2037.79" y="1548.38" angle="0"/>
+    <poi id="-179269278.75.47" type="priority" color="yellow" x="1891.24" y="1299.80" angle="0"/>
+    <poi id="-179269279.256.67" type="yield" color="red" x="1650.11" y="1594.82" angle="0"/>
+    <poi id="-179269280.74.77" type="priority" color="yellow" x="1794.57" y="1311.86" angle="0"/>
+    <poi id="-179269281.79.08" type="priority" color="yellow" x="1698.45" y="1323.42" angle="0"/>
+    <poi id="-179269282.252.24" type="yield" color="red" x="1745.64" y="1583.16" angle="0"/>
+    <poi id="-179269283.252.21" type="yield" color="red" x="1842.14" y="1571.41" angle="0"/>
+    <poi id="-179269285.252.10" type="yield" color="red" x="1939.78" y="1559.61" angle="0"/>
+    <poi id="-179269286.382.74" type="priority" color="yellow" x="1807.49" y="1297.78" angle="0"/>
+    <poi id="-179269288.321.03" type="priority" color="yellow" x="1711.45" y="1309.29" angle="0"/>
+    <poi id="-179269289#0.427.33" type="priority" color="yellow" x="1905.35" y="1282.48" angle="0"/>
+    <poi id="-179270550#0.38.16" type="priority" color="yellow" x="2793.89" y="1715.35" angle="0"/>
+    <poi id="-179270550#1.75.05" type="priority" color="yellow" x="2800.39" y="1765.55" angle="0"/>
+    <poi id="-179270550#2.437.04" type="priority" color="yellow" x="2811.61" y="1852.28" angle="0"/>
+    <poi id="-179384834#1.29.55" type="priority" color="yellow" x="1661.14" y="648.38" angle="0"/>
+    <poi id="-179384834#2.84.14" type="priority" color="yellow" x="1707.66" y="642.37" angle="0"/>
+    <poi id="-179384834#3.26.68" type="priority" color="yellow" x="1808.41" y="630.20" angle="0"/>
+    <poi id="-179384834#4.79.76" type="priority" color="yellow" x="1852.15" y="625.25" angle="0"/>
+    <poi id="-186981199#0.16.27" type="yield" color="red" x="2811.23" y="1756.79" angle="0"/>
+    <poi id="-186981199#1.8.04" type="right before left" color="255,153,0" x="2833.42" y="1741.99" angle="0"/>
+    <poi id="-186981199#2.35.61" type="right before left" color="255,153,0" x="2850.73" y="1739.84" angle="0"/>
+    <poi id="-187647520#1.10.05" type="right before left" color="255,153,0" x="3042.00" y="1722.84" angle="0"/>
+    <poi id="-19579792.298.50" type="priority" color="yellow" x="2612.83" y="599.36" angle="0"/>
+    <poi id="-204241141#10.52.31" type="priority" color="yellow" x="2870.58" y="1679.87" angle="0"/>
+    <poi id="-204241141#3.25.98" type="priority" color="yellow" x="3127.97" y="1647.65" angle="0"/>
+    <poi id="-204241141#4.9.66" type="priority" color="yellow" x="3089.98" y="1652.77" angle="0"/>
+    <poi id="-204241141#5.37.46" type="priority" color="yellow" x="3068.09" y="1655.54" angle="0"/>
+    <poi id="-204241141#6.31.09" type="priority" color="yellow" x="3018.61" y="1661.77" angle="0"/>
+    <poi id="-204241141#8.40.71" type="priority" color="yellow" x="2963.30" y="1668.54" angle="0"/>
+    <poi id="-204241141#9.21.24" type="priority" color="yellow" x="2905.64" y="1675.63" angle="0"/>
+    <poi id="-204241148#0.59.72" type="yield" color="red" x="1971.33" y="1567.67" angle="0"/>
+    <poi id="-204241148#1.41.11" type="priority" color="yellow" x="2047.96" y="1558.96" angle="0"/>
+    <poi id="-22663176#0.8.65" type="yield" color="red" x="3327.50" y="1256.45" angle="0"/>
+    <poi id="-22663178#0.121.64" type="right before left" color="255,153,0" x="3331.75" y="1231.47" angle="0"/>
+    <poi id="-22663178#1.77.78" type="right before left" color="255,153,0" x="3285.43" y="1129.75" angle="0"/>
+    <poi id="-22663178#2.65.43" type="right before left" color="255,153,0" x="3272.98" y="1200.97" angle="0"/>
+    <poi id="-22663227#0.4.34" type="yield" color="red" x="3236.97" y="1268.36" angle="0"/>
+    <poi id="-22663227#1.50.06" type="right before left" color="255,153,0" x="3242.05" y="1252.87" angle="0"/>
+    <poi id="-22663229#0.25.39" type="right before left" color="255,153,0" x="3265.44" y="1192.90" angle="0"/>
+    <poi id="-22663229#1.5.73" type="right before left" color="255,153,0" x="3227.96" y="1198.72" angle="0"/>
+    <poi id="-22898388.0.00" type="yield" color="red" x="3322.01" y="517.74" angle="0"/>
+    <poi id="-238187954#0.11.16" type="yield" color="red" x="2660.75" y="1589.44" angle="0"/>
+    <poi id="-238187954#1.13.01" type="priority" color="yellow" x="2657.68" y="1569.03" angle="0"/>
+    <poi id="-238187954#10.126.82" type="yield" color="red" x="2147.78" y="1606.37" angle="0"/>
+    <poi id="-238187954#11.50.91" type="right before left" color="255,153,0" x="2016.01" y="1614.54" angle="0"/>
+    <poi id="-238187954#12.14.10" type="right before left" color="255,153,0" x="2009.12" y="1677.48" angle="0"/>
+    <poi id="-238187954#2.153.98" type="priority" color="yellow" x="2644.22" y="1542.62" angle="0"/>
+    <poi id="-238187954#3.18.48" type="right before left" color="255,153,0" x="2484.64" y="1536.59" angle="0"/>
+    <poi id="-238187954#4.12.52" type="right before left" color="255,153,0" x="2452.81" y="1539.10" angle="0"/>
+    <poi id="-238187954#5.58.89" type="right before left" color="255,153,0" x="2429.96" y="1547.35" angle="0"/>
+    <poi id="-238187954#6.33.39" type="right before left" color="255,153,0" x="2361.39" y="1565.74" angle="0"/>
+    <poi id="-238187954#7.43.28" type="right before left" color="255,153,0" x="2316.04" y="1570.91" angle="0"/>
+    <poi id="-238187954#8.59.29" type="right before left" color="255,153,0" x="2260.96" y="1574.24" angle="0"/>
+    <poi id="-238187954#9.53.11" type="right before left" color="255,153,0" x="2186.30" y="1567.65" angle="0"/>
+    <poi id="-241571550#0.0.00" type="right before left" color="255,153,0" x="2538.59" y="1479.98" angle="0"/>
+    <poi id="-241571550#1.20.90" type="right before left" color="255,153,0" x="2545.96" y="1479.37" angle="0"/>
+    <poi id="-24689612.18.19" type="priority" color="yellow" x="3011.81" y="1517.27" angle="0"/>
+    <poi id="-24690148.146.85" type="priority" color="yellow" x="2787.62" y="1473.86" angle="0"/>
+    <poi id="-250248456#0.0.00" type="priority" color="yellow" x="2304.16" y="1373.34" angle="0"/>
+    <poi id="-250248456#1.114.03" type="priority" color="yellow" x="2295.77" y="1373.54" angle="0"/>
+    <poi id="-250248456#4.11.92" type="priority" color="yellow" x="2137.35" y="1395.66" angle="0"/>
+    <poi id="-250248456#5.17.61" type="priority" color="yellow" x="2113.22" y="1398.31" angle="0"/>
+    <poi id="-250248463#1.4.27" type="yield" color="red" x="2176.39" y="1429.16" angle="0"/>
+    <poi id="-255720419.4.72" type="right before left" color="255,153,0" x="3213.73" y="1026.84" angle="0"/>
+    <poi id="-255720420.6.06" type="right before left" color="255,153,0" x="3337.01" y="610.49" angle="0"/>
+    <poi id="-255720422.157.45" type="right before left" color="255,153,0" x="3149.87" y="860.90" angle="0"/>
+    <poi id="-255720424.12.37" type="right before left" color="255,153,0" x="3165.13" y="830.70" angle="0"/>
+    <poi id="-255720427#0.45.85" type="right before left" color="255,153,0" x="3165.96" y="1049.10" angle="0"/>
+    <poi id="-255720427#1.86.89" type="right before left" color="255,153,0" x="3226.87" y="1034.07" angle="0"/>
+    <poi id="-255720428#0.74.47" type="right before left" color="255,153,0" x="3350.04" y="680.77" angle="0"/>
+    <poi id="-255720428#1.19.60" type="right before left" color="255,153,0" x="3349.14" y="601.92" angle="0"/>
+    <poi id="-255720429#0.27.88" type="right before left" color="255,153,0" x="3163.77" y="1081.89" angle="0"/>
+    <poi id="-255720429#1.71.05" type="right before left" color="255,153,0" x="3157.45" y="1047.15" angle="0"/>
+    <poi id="-255720431#0.31.99" type="right before left" color="255,153,0" x="3161.75" y="800.10" angle="0"/>
+    <poi id="-255720431#1.31.85" type="right before left" color="255,153,0" x="3129.94" y="813.79" angle="0"/>
+    <poi id="-261474391.43.03" type="right before left" color="255,153,0" x="3095.37" y="1430.75" angle="0"/>
+    <poi id="-261971357.203.89" type="yield" color="red" x="2574.48" y="1722.91" angle="0"/>
+    <poi id="-261979202.33.82" type="priority" color="yellow" x="2005.02" y="989.44" angle="0"/>
+    <poi id="-274716109#0.69.33" type="yield" color="red" x="3248.39" y="1868.69" angle="0"/>
+    <poi id="-274716109#1.41.03" type="right before left" color="255,153,0" x="3249.04" y="1790.94" angle="0"/>
+    <poi id="-274716110.8.07" type="right before left" color="255,153,0" x="3240.44" y="1797.47" angle="0"/>
+    <poi id="-28242403.50.02" type="priority" color="yellow" x="2014.54" y="1287.40" angle="0"/>
+    <poi id="-28257062.92.66" type="priority" color="yellow" x="2951.68" y="1454.39" angle="0"/>
+    <poi id="-28338493#0.12.65" type="yield" color="red" x="1624.44" y="1618.75" angle="0"/>
+    <poi id="-28338493#1.0.00" type="priority" color="yellow" x="1640.04" y="1644.96" angle="0"/>
+    <poi id="-28338493#2.2.37" type="priority" color="yellow" x="1657.75" y="1651.48" angle="0"/>
+    <poi id="-28338493#3.0.00" type="priority" color="yellow" x="1676.98" y="1652.16" angle="0"/>
+    <poi id="-28338493#4.8.80" type="yield" color="red" x="1683.88" y="1656.86" angle="0"/>
+    <poi id="-28338493#6.90.03" type="yield" color="red" x="1688.89" y="1693.14" angle="0"/>
+    <poi id="-28338493#7.4.40" type="priority" color="yellow" x="1767.39" y="1711.74" angle="0"/>
+    <poi id="-28377256#0.89.01" type="yield" color="red" x="2878.47" y="1656.69" angle="0"/>
+    <poi id="-28377256#1.21.87" type="right before left" color="255,153,0" x="2881.88" y="1565.68" angle="0"/>
+    <poi id="-28377256#2.0.00" type="right before left" color="255,153,0" x="2866.00" y="1539.47" angle="0"/>
+    <poi id="-28532600.232.60" type="yield" color="red" x="3232.54" y="1728.13" angle="0"/>
+    <poi id="-28715158#0.4.78" type="yield" color="red" x="2082.05" y="1262.31" angle="0"/>
+    <poi id="-28715158#1.44.50" type="right before left" color="255,153,0" x="2076.53" y="1248.62" angle="0"/>
+    <poi id="-28715158#2.234.82" type="yield" color="red" x="2057.56" y="1210.38" angle="0"/>
+    <poi id="-28715158#3.0.00" type="priority" color="yellow" x="2023.89" y="986.28" angle="0"/>
+    <poi id="-28715158#4.8.10" type="priority" color="yellow" x="2027.08" y="977.21" angle="0"/>
+    <poi id="-28715158#5.175.49" type="priority" color="yellow" x="2026.72" y="957.79" angle="0"/>
+    <poi id="-28715158#6.26.38" type="right before left" color="255,153,0" x="1983.32" y="789.63" angle="0"/>
+    <poi id="-298236180#1.0.18" type="right before left" color="255,153,0" x="2707.28" y="1284.55" angle="0"/>
+    <poi id="-298236180#2.17.29" type="right before left" color="255,153,0" x="2706.98" y="1271.97" angle="0"/>
+    <poi id="-298236180#3.5.00" type="right before left" color="255,153,0" x="2696.97" y="1249.19" angle="0"/>
+    <poi id="-298236180#4.2.05" type="right before left" color="255,153,0" x="2679.64" y="1251.01" angle="0"/>
+    <poi id="-298236181.82.84" type="right before left" color="255,153,0" x="2690.14" y="1339.39" angle="0"/>
+    <poi id="-298236182.87.78" type="priority" color="yellow" x="2672.06" y="1260.52" angle="0"/>
+    <poi id="-298236183.79.80" type="right before left" color="255,153,0" x="2627.14" y="1342.95" angle="0"/>
+    <poi id="-298236184.2.96" type="right before left" color="255,153,0" x="2647.84" y="1264.28" angle="0"/>
+    <poi id="-298236185#0.82.39" type="right before left" color="255,153,0" x="2658.81" y="1352.47" angle="0"/>
+    <poi id="-298236185#1.0.00" type="right before left" color="255,153,0" x="2656.93" y="1258.30" angle="0"/>
+    <poi id="-298236186#0.0.00" type="right before left" color="255,153,0" x="2638.70" y="1261.22" angle="0"/>
+    <poi id="-298236186#1.82.41" type="right before left" color="255,153,0" x="2638.81" y="1273.62" angle="0"/>
+    <poi id="-298236187.43.50" type="right before left" color="255,153,0" x="2722.19" y="1276.86" angle="0"/>
+    <poi id="-299173862#0.39.31" type="right before left" color="255,153,0" x="2614.05" y="1261.33" angle="0"/>
+    <poi id="-299173862#1.49.26" type="priority" color="yellow" x="2605.69" y="1308.15" angle="0"/>
+    <poi id="-299173862#2.4.48" type="right before left" color="255,153,0" x="2630.18" y="1358.06" angle="0"/>
+    <poi id="-299173862#3.6.99" type="right before left" color="255,153,0" x="2648.29" y="1367.10" angle="0"/>
+    <poi id="-299173862#4.5.81" type="right before left" color="255,153,0" x="2666.63" y="1359.44" angle="0"/>
+    <poi id="-299173862#5.2.30" type="right before left" color="255,153,0" x="2683.89" y="1352.24" angle="0"/>
+    <poi id="-299173862#6.42.43" type="right before left" color="255,153,0" x="2699.24" y="1342.74" angle="0"/>
+    <poi id="-309001817#0.1.01" type="right before left" color="255,153,0" x="2663.45" y="1005.70" angle="0"/>
+    <poi id="-309001817#1.0.00" type="priority" color="yellow" x="2664.27" y="1001.02" angle="0"/>
+    <poi id="-310292413#0.34.14" type="yield" color="red" x="3018.99" y="1525.02" angle="0"/>
+    <poi id="-310292413#2.20.93" type="right before left" color="255,153,0" x="3066.11" y="1508.58" angle="0"/>
+    <poi id="-310292413#3.46.83" type="priority" color="yellow" x="3094.68" y="1509.59" angle="0"/>
+    <poi id="-310292413#4.6.14" type="right before left" color="255,153,0" x="3149.64" y="1501.80" angle="0"/>
+    <poi id="-310292416#0.65.03" type="right before left" color="255,153,0" x="2988.17" y="1502.66" angle="0"/>
+    <poi id="-310292416#1.63.75" type="priority" color="yellow" x="2928.05" y="1531.91" angle="0"/>
+    <poi id="-310292416#2.71.09" type="right before left" color="255,153,0" x="2856.35" y="1538.08" angle="0"/>
+    <poi id="-310292416#3.6.32" type="right before left" color="255,153,0" x="2777.67" y="1539.47" angle="0"/>
+    <poi id="-310292423.34.97" type="priority" color="yellow" x="2363.43" y="1330.81" angle="0"/>
+    <poi id="-330739173.62.05" type="right before left" color="255,153,0" x="3129.97" y="789.36" angle="0"/>
+    <poi id="-330739304.66.91" type="yield" color="red" x="2743.75" y="722.33" angle="0"/>
+    <poi id="-333727834#0.572.66" type="right before left" color="255,153,0" x="3036.72" y="607.94" angle="0"/>
+    <poi id="-333727834#1.101.38" type="priority" color="yellow" x="3120.35" y="1182.18" angle="0"/>
+    <poi id="-333727834#2.0.00" type="right before left" color="255,153,0" x="3139.71" y="1289.81" angle="0"/>
+    <poi id="-333727835#0.0.00" type="yield" color="red" x="3076.16" y="593.19" angle="0"/>
+    <poi id="-333727835#2.0.00" type="yield" color="red" x="3047.82" y="598.61" angle="0"/>
+    <poi id="-333727835#3.0.00" type="yield" color="red" x="3037.49" y="599.98" angle="0"/>
+    <poi id="-333727835#4.133.89" type="right before left" color="255,153,0" x="3030.33" y="599.83" angle="0"/>
+    <poi id="-333727835#5.152.89" type="yield" color="red" x="2885.45" y="619.16" angle="0"/>
+    <poi id="-333727835#7.93.21" type="priority" color="yellow" x="2692.45" y="647.31" angle="0"/>
+    <poi id="-35177164#0.31.78" type="right before left" color="255,153,0" x="3271.69" y="1555.94" angle="0"/>
+    <poi id="-35177164#1.40.38" type="priority" color="yellow" x="3269.28" y="1518.48" angle="0"/>
+    <poi id="-35177165#0.50.14" type="yield" color="red" x="2120.55" y="1406.79" angle="0"/>
+    <poi id="-35177165#1.28.97" type="right before left" color="255,153,0" x="2128.75" y="1468.86" angle="0"/>
+    <poi id="-35177165#2.51.91" type="right before left" color="255,153,0" x="2130.17" y="1501.27" angle="0"/>
+    <poi id="-35177165#3.49.26" type="right before left" color="255,153,0" x="2110.29" y="1455.83" angle="0"/>
+    <poi id="-35177166#0.6.85" type="right before left" color="255,153,0" x="2117.79" y="1463.97" angle="0"/>
+    <poi id="-35177166#1.0.87" type="right before left" color="255,153,0" x="2136.87" y="1461.37" angle="0"/>
+    <poi id="-35177166#2.52.00" type="right before left" color="255,153,0" x="2148.76" y="1454.49" angle="0"/>
+    <poi id="-35177167.46.68" type="right before left" color="255,153,0" x="2148.71" y="1501.50" angle="0"/>
+    <poi id="-35177168#0.0.00" type="yield" color="red" x="2081.34" y="1287.04" angle="0"/>
+    <poi id="-35177168#1.6.28" type="right before left" color="255,153,0" x="2093.61" y="1285.42" angle="0"/>
+    <poi id="-35177168#3.68.78" type="priority" color="yellow" x="2109.34" y="1283.11" angle="0"/>
+    <poi id="-35177169.46.16" type="yield" color="red" x="2103.97" y="1290.34" angle="0"/>
+    <poi id="-35177170.55.88" type="yield" color="red" x="2148.82" y="1331.64" angle="0"/>
+    <poi id="-363644127.38.80" type="priority" color="yellow" x="2205.89" y="1248.22" angle="0"/>
+    <poi id="-36379081.77.51" type="yield" color="red" x="2916.55" y="1692.00" angle="0"/>
+    <poi id="-36379083#0.3.12" type="priority" color="yellow" x="2968.56" y="1640.25" angle="0"/>
+    <poi id="-36379083#1.6.02" type="priority" color="yellow" x="2970.54" y="1655.73" angle="0"/>
+    <poi id="-36379088#0.33.66" type="yield" color="red" x="3026.88" y="1654.38" angle="0"/>
+    <poi id="-36379088#1.39.88" type="right before left" color="255,153,0" x="3021.14" y="1608.44" angle="0"/>
+    <poi id="-36379088#2.12.79" type="right before left" color="255,153,0" x="3013.53" y="1556.65" angle="0"/>
+    <poi id="-36379088#3.4.88" type="right before left" color="255,153,0" x="3011.90" y="1533.10" angle="0"/>
+    <poi id="-36379089#0.36.13" type="right before left" color="255,153,0" x="3058.46" y="1497.29" angle="0"/>
+    <poi id="-36379089#1.0.00" type="right before left" color="255,153,0" x="3051.15" y="1449.44" angle="0"/>
+    <poi id="-36379089#2.33.30" type="priority" color="yellow" x="3057.43" y="1445.25" angle="0"/>
+    <poi id="-36379089#3.15.13" type="right before left" color="255,153,0" x="3102.68" y="1438.79" angle="0"/>
+    <poi id="-36379091.27.16" type="right before left" color="255,153,0" x="3058.65" y="1457.27" angle="0"/>
+    <poi id="-36379093.48.22" type="right before left" color="255,153,0" x="3018.61" y="1539.65" angle="0"/>
+    <poi id="-36379095.53.72" type="right before left" color="255,153,0" x="3034.10" y="1608.97" angle="0"/>
+    <poi id="-36379097#0.0.00" type="yield" color="red" x="3138.08" y="1637.28" angle="0"/>
+    <poi id="-36379097#1.7.54" type="priority" color="yellow" x="3135.96" y="1622.49" angle="0"/>
+    <poi id="-36379098.51.97" type="yield" color="red" x="3125.40" y="1624.88" angle="0"/>
+    <poi id="-36379100#0.3.31" type="right before left" color="255,153,0" x="3130.34" y="1602.85" angle="0"/>
+    <poi id="-36379100#1.22.84" type="yield" color="red" x="3140.80" y="1610.73" angle="0"/>
+    <poi id="-36379101#0.0.00" type="right before left" color="255,153,0" x="3135.86" y="1595.71" angle="0"/>
+    <poi id="-36379101#1.13.38" type="right before left" color="255,153,0" x="3148.20" y="1594.00" angle="0"/>
+    <poi id="-36379103.14.94" type="right before left" color="255,153,0" x="3140.28" y="1581.91" angle="0"/>
+    <poi id="-36667189#0.1.68" type="yield" color="red" x="2739.74" y="1123.10" angle="0"/>
+    <poi id="-36667189#1.20.58" type="priority" color="yellow" x="2750.10" y="1121.61" angle="0"/>
+    <poi id="-36667189#2.1.70" type="priority" color="yellow" x="2777.80" y="1114.67" angle="0"/>
+    <poi id="-36667189#3.22.48" type="right before left" color="255,153,0" x="2784.44" y="1112.82" angle="0"/>
+    <poi id="-36667190#1.119.19" type="priority" color="yellow" x="2760.55" y="1216.61" angle="0"/>
+    <poi id="-36716325#1.0.00" type="yield" color="red" x="3164.10" y="1526.05" angle="0"/>
+    <poi id="-36716325#2.3.28" type="right before left" color="255,153,0" x="3159.18" y="1535.84" angle="0"/>
+    <poi id="-36716326.11.50" type="right before left" color="255,153,0" x="3159.94" y="1520.25" angle="0"/>
+    <poi id="-36716331#1.37.86" type="yield" color="red" x="2978.82" y="1648.15" angle="0"/>
+    <poi id="-36716332#1.37.85" type="yield" color="red" x="2976.77" y="1632.78" angle="0"/>
+    <poi id="-400152666.6.80" type="right before left" color="255,153,0" x="3254.74" y="1342.78" angle="0"/>
+    <poi id="-403838199.75.99" type="right before left" color="255,153,0" x="3179.96" y="692.63" angle="0"/>
+    <poi id="-403838202.42.82" type="right before left" color="255,153,0" x="3297.35" y="678.06" angle="0"/>
+    <poi id="-403838204.75.76" type="right before left" color="255,153,0" x="3161.10" y="695.02" angle="0"/>
+    <poi id="-403838206.41.95" type="right before left" color="255,153,0" x="3279.49" y="680.35" angle="0"/>
+    <poi id="-403838207.47.90" type="right before left" color="255,153,0" x="3336.69" y="673.23" angle="0"/>
+    <poi id="-403838211.45.44" type="right before left" color="255,153,0" x="3229.53" y="643.77" angle="0"/>
+    <poi id="-403838212.41.10" type="right before left" color="255,153,0" x="3263.61" y="682.35" angle="0"/>
+    <poi id="-403838216.76.25" type="right before left" color="255,153,0" x="3196.83" y="690.62" angle="0"/>
+    <poi id="-403838217.43.86" type="right before left" color="255,153,0" x="3315.23" y="675.88" angle="0"/>
+    <poi id="-403838219.75.51" type="right before left" color="255,153,0" x="3144.80" y="697.01" angle="0"/>
+    <poi id="-403838220#0.175.59" type="right before left" color="255,153,0" x="3247.44" y="629.93" angle="0"/>
+    <poi id="-403838220#1.8.67" type="right before left" color="255,153,0" x="3219.69" y="604.23" angle="0"/>
+    <poi id="-403838220#10.4.46" type="right before left" color="255,153,0" x="3187.44" y="700.97" angle="0"/>
+    <poi id="-403838220#11.7.77" type="right before left" color="255,153,0" x="3204.18" y="698.89" angle="0"/>
+    <poi id="-403838220#12.9.49" type="right before left" color="255,153,0" x="3224.19" y="696.40" angle="0"/>
+    <poi id="-403838220#13.2.54" type="right before left" color="255,153,0" x="3245.87" y="693.82" angle="0"/>
+    <poi id="-403838220#14.1.12" type="right before left" color="255,153,0" x="3257.67" y="692.34" angle="0"/>
+    <poi id="-403838220#15.3.61" type="right before left" color="255,153,0" x="3271.00" y="690.59" angle="0"/>
+    <poi id="-403838220#16.5.53" type="right before left" color="255,153,0" x="3286.90" y="688.59" angle="0"/>
+    <poi id="-403838220#17.5.65" type="right before left" color="255,153,0" x="3304.66" y="686.35" angle="0"/>
+    <poi id="-403838220#18.9.27" type="right before left" color="255,153,0" x="3322.58" y="684.16" angle="0"/>
+    <poi id="-403838220#2.8.48" type="right before left" color="255,153,0" x="3198.81" y="607.13" angle="0"/>
+    <poi id="-403838220#3.6.74" type="right before left" color="255,153,0" x="3178.14" y="610.00" angle="0"/>
+    <poi id="-403838220#4.5.92" type="right before left" color="255,153,0" x="3159.18" y="612.63" angle="0"/>
+    <poi id="-403838220#5.4.49" type="right before left" color="255,153,0" x="3141.03" y="615.14" angle="0"/>
+    <poi id="-403838220#6.11.03" type="right before left" color="255,153,0" x="3124.30" y="617.46" angle="0"/>
+    <poi id="-403838220#7.94.95" type="right before left" color="255,153,0" x="3109.49" y="634.66" angle="0"/>
+    <poi id="-403838220#8.3.99" type="right before left" color="255,153,0" x="3152.27" y="705.34" angle="0"/>
+    <poi id="-403838220#9.6.65" type="right before left" color="255,153,0" x="3168.54" y="703.32" angle="0"/>
+    <poi id="-403838222.76.49" type="right before left" color="255,153,0" x="3216.88" y="688.11" angle="0"/>
+    <poi id="-403838225#0.2.75" type="yield" color="red" x="3325.07" y="558.23" angle="0"/>
+    <poi id="-403838225#1.35.14" type="yield" color="red" x="3326.22" y="569.01" angle="0"/>
+    <poi id="-415775174#0.7.98" type="priority" color="yellow" x="2149.95" y="1188.45" angle="0"/>
+    <poi id="-415775174#1.0.00" type="priority" color="yellow" x="2162.03" y="1186.91" angle="0"/>
+    <poi id="-415775174#2.3.43" type="priority" color="yellow" x="2176.82" y="1185.02" angle="0"/>
+    <poi id="-424926868.3.05" type="right before left" color="255,153,0" x="2043.40" y="879.06" angle="0"/>
+    <poi id="-4361218.177.47" type="priority" color="yellow" x="1798.93" y="1752.89" angle="0"/>
+    <poi id="-4361219.180.81" type="yield" color="red" x="1782.27" y="1651.21" angle="0"/>
+    <poi id="-4361220#0.38.26" type="priority" color="yellow" x="1791.56" y="1749.92" angle="0"/>
+    <poi id="-4361220#1.41.02" type="priority" color="yellow" x="1778.97" y="1698.74" angle="0"/>
+    <poi id="-4361220#2.42.83" type="priority" color="yellow" x="1772.04" y="1640.79" angle="0"/>
+    <poi id="-4361221#1.8.48" type="priority" color="yellow" x="1634.62" y="1608.46" angle="0"/>
+    <poi id="-4361221#2.78.83" type="priority" color="yellow" x="1660.28" y="1605.29" angle="0"/>
+    <poi id="-4361221#4.61.16" type="priority" color="yellow" x="1774.32" y="1591.35" angle="0"/>
+    <poi id="-4361221#5.80.96" type="priority" color="yellow" x="1852.31" y="1581.91" angle="0"/>
+    <poi id="-4394494#1.7.37" type="priority" color="yellow" x="2638.55" y="1708.55" angle="0"/>
+    <poi id="-4394494#2.39.61" type="priority" color="yellow" x="2618.92" y="1710.95" angle="0"/>
+    <poi id="-4394494#3.3.32" type="priority" color="yellow" x="2567.26" y="1717.23" angle="0"/>
+    <poi id="-4394494#4.191.34" type="priority" color="yellow" x="2551.66" y="1719.12" angle="0"/>
+    <poi id="-4394494#5.22.77" type="priority" color="yellow" x="2349.40" y="1743.72" angle="0"/>
+    <poi id="-4394494#6.85.11" type="priority" color="yellow" x="2309.48" y="1748.66" angle="0"/>
+    <poi id="-4394494#7.76.70" type="priority" color="yellow" x="2212.83" y="1761.65" angle="0"/>
+    <poi id="-4394494#8.117.12" type="priority" color="yellow" x="2119.13" y="1774.25" angle="0"/>
+    <poi id="-4394494#9.0.00" type="priority" color="yellow" x="1997.36" y="1790.61" angle="0"/>
+    <poi id="-44341853.0.00" type="priority" color="yellow" x="1739.71" y="915.24" angle="0"/>
+    <poi id="-44343328#0.8.32" type="yield" color="red" x="1726.21" y="867.47" angle="0"/>
+    <poi id="-44343328#1.21.62" type="right before left" color="255,153,0" x="1712.98" y="852.19" angle="0"/>
+    <poi id="-44343328#2.2.55" type="right before left" color="255,153,0" x="1696.98" y="827.62" angle="0"/>
+    <poi id="-44343328#3.0.00" type="right before left" color="255,153,0" x="1694.96" y="818.29" angle="0"/>
+    <poi id="-44343328#4.0.00" type="yield" color="red" x="1693.98" y="813.12" angle="0"/>
+    <poi id="-44347104#0.41.01" type="right before left" color="255,153,0" x="1721.37" y="855.91" angle="0"/>
+    <poi id="-44347104#1.5.35" type="right before left" color="255,153,0" x="1757.87" y="840.23" angle="0"/>
+    <poi id="-44348009.0.00" type="priority" color="yellow" x="1880.53" y="822.05" angle="0"/>
+    <poi id="-44348011.24.05" type="right before left" color="255,153,0" x="1950.63" y="777.85" angle="0"/>
+    <poi id="-44348033.159.10" type="priority" color="yellow" x="2333.44" y="870.97" angle="0"/>
+    <poi id="-45399743#1.47.83" type="priority" color="yellow" x="1990.47" y="1782.67" angle="0"/>
+    <poi id="-45399743#2.19.03" type="priority" color="yellow" x="1982.04" y="1717.98" angle="0"/>
+    <poi id="-45399743#3.52.72" type="priority" color="yellow" x="1977.95" y="1686.65" angle="0"/>
+    <poi id="-45399743#4.43.03" type="priority" color="yellow" x="1968.88" y="1617.12" angle="0"/>
+    <poi id="-45606690#0.0.00" type="yield" color="red" x="2166.67" y="1177.49" angle="0"/>
+    <poi id="-45606690#1.8.40" type="yield" color="red" x="2153.81" y="1171.53" angle="0"/>
+    <poi id="-45606691#1.20.15" type="priority" color="yellow" x="2163.71" y="1157.24" angle="0"/>
+    <poi id="-4577072#0.107.49" type="priority" color="yellow" x="2530.84" y="1142.88" angle="0"/>
+    <poi id="-4577072#1.11.64" type="priority" color="yellow" x="2572.79" y="1239.03" angle="0"/>
+    <poi id="-4577073#1.121.05" type="priority" color="yellow" x="2032.94" y="997.67" angle="0"/>
+    <poi id="-4577073#2.75.74" type="priority" color="yellow" x="2051.19" y="1134.87" angle="0"/>
+    <poi id="-4577073#3.47.04" type="priority" color="yellow" x="2061.85" y="1218.05" angle="0"/>
+    <poi id="-4577073#6.99.31" type="priority" color="yellow" x="2072.51" y="1297.04" angle="0"/>
+    <poi id="-4577075#1.60.26" type="priority" color="yellow" x="2099.74" y="982.85" angle="0"/>
+    <poi id="-4577078#0.8.69" type="priority" color="yellow" x="2742.68" y="734.65" angle="0"/>
+    <poi id="-4577078#1.0.65" type="priority" color="yellow" x="2738.60" y="713.94" angle="0"/>
+    <poi id="-4577078#2.2.46" type="priority" color="yellow" x="2736.08" y="701.13" angle="0"/>
+    <poi id="-4577078#3.5.44" type="priority" color="yellow" x="2733.21" y="686.55" angle="0"/>
+    <poi id="-4577078#4.18.20" type="priority" color="yellow" x="2730.64" y="668.70" angle="0"/>
+    <poi id="-4577079#2.12.95" type="priority" color="yellow" x="3177.24" y="1283.93" angle="0"/>
+    <poi id="-4577079#3.2.36" type="priority" color="yellow" x="3198.06" y="1281.64" angle="0"/>
+    <poi id="-4577079#4.19.16" type="priority" color="yellow" x="3212.76" y="1280.09" angle="0"/>
+    <poi id="-4577079#6.9.31" type="priority" color="yellow" x="3252.01" y="1275.77" angle="0"/>
+    <poi id="-4577079#7.0.55" type="priority" color="yellow" x="3278.52" y="1272.43" angle="0"/>
+    <poi id="-4577079#8.31.47" type="priority" color="yellow" x="3291.36" y="1270.67" angle="0"/>
+    <poi id="-4577079#9.628.75" type="priority" color="yellow" x="3334.78" y="1264.67" angle="0"/>
+    <poi id="-45802407#0.17.85" type="yield" color="red" x="3097.36" y="1661.02" angle="0"/>
+    <poi id="-45802407#1.55.42" type="right before left" color="255,153,0" x="3104.22" y="1690.14" angle="0"/>
+    <poi id="-45802411#0.55.45" type="right before left" color="255,153,0" x="3106.59" y="1684.04" angle="0"/>
+    <poi id="-45802411#1.0.48" type="right before left" color="255,153,0" x="3165.19" y="1687.61" angle="0"/>
+    <poi id="-45802411#2.17.75" type="right before left" color="255,153,0" x="3168.01" y="1701.23" angle="0"/>
+    <poi id="-45802411#3.9.40" type="right before left" color="255,153,0" x="3171.38" y="1732.44" angle="0"/>
+    <poi id="-45802413#0.11.33" type="right before left" color="255,153,0" x="3181.04" y="1720.60" angle="0"/>
+    <poi id="-45802413#1.14.39" type="right before left" color="255,153,0" x="3187.41" y="1702.53" angle="0"/>
+    <poi id="-45802428#0.22.33" type="yield" color="red" x="3286.08" y="1379.99" angle="0"/>
+    <poi id="-45802428#1.24.76" type="right before left" color="255,153,0" x="3251.62" y="1384.33" angle="0"/>
+    <poi id="-45802428#2.6.41" type="right before left" color="255,153,0" x="3214.75" y="1388.95" angle="0"/>
+    <poi id="-45802428#3.23.69" type="priority" color="yellow" x="3203.49" y="1399.56" angle="0"/>
+    <poi id="-45802431.24.60" type="right before left" color="255,153,0" x="3222.16" y="1397.22" angle="0"/>
+    <poi id="-45802434#0.0.00" type="right before left" color="255,153,0" x="3258.89" y="1392.54" angle="0"/>
+    <poi id="-45802434#1.4.47" type="right before left" color="255,153,0" x="3260.15" y="1404.88" angle="0"/>
+    <poi id="-45802434#2.11.82" type="right before left" color="255,153,0" x="3261.87" y="1421.66" angle="0"/>
+    <poi id="-45802437.9.84" type="right before left" color="255,153,0" x="3268.62" y="1397.62" angle="0"/>
+    <poi id="-45897352#1.48.45" type="yield" color="red" x="2151.98" y="1383.26" angle="0"/>
+    <poi id="-45897352#2.52.97" type="priority" color="yellow" x="2144.14" y="1322.91" angle="0"/>
+    <poi id="-45897636#0.3.11" type="yield" color="red" x="2091.77" y="994.36" angle="0"/>
+    <poi id="-45897636#1.50.42" type="right before left" color="255,153,0" x="2065.12" y="998.98" angle="0"/>
+    <poi id="-45897636#2.33.16" type="right before left" color="255,153,0" x="2102.53" y="1029.66" angle="0"/>
+    <poi id="-45897637.21.18" type="right before left" color="255,153,0" x="2083.82" y="1004.73" angle="0"/>
+    <poi id="-45897672#1.18.39" type="priority" color="yellow" x="2515.07" y="777.59" angle="0"/>
+    <poi id="-45897672#2.21.61" type="priority" color="yellow" x="2545.21" y="772.39" angle="0"/>
+    <poi id="-45897672#3.0.00" type="yield" color="red" x="2587.65" y="766.75" angle="0"/>
+    <poi id="-45897759#1.1.23" type="priority" color="yellow" x="2293.37" y="888.58" angle="0"/>
+    <poi id="-46129025#1.0.00" type="priority" color="yellow" x="1854.44" y="533.83" angle="0"/>
+    <poi id="-46129051#0.43.78" type="yield" color="red" x="2160.32" y="822.92" angle="0"/>
+    <poi id="-46129051#1.10.34" type="right before left" color="255,153,0" x="2160.52" y="771.21" angle="0"/>
+    <poi id="-46129053.4.37" type="right before left" color="255,153,0" x="2150.19" y="778.05" angle="0"/>
+    <poi id="-46129059#1.24.73" type="yield" color="red" x="2133.30" y="735.91" angle="0"/>
+    <poi id="-46129059#2.3.51" type="priority" color="yellow" x="2138.89" y="772.78" angle="0"/>
+    <poi id="-46129059#3.30.61" type="priority" color="yellow" x="2140.99" y="788.53" angle="0"/>
+    <poi id="-46129059#5.0.00" type="priority" color="yellow" x="2145.29" y="831.16" angle="0"/>
+    <poi id="-46129065#0.54.64" type="yield" color="red" x="2613.30" y="1005.64" angle="0"/>
+    <poi id="-46129065#2.2.96" type="right before left" color="255,153,0" x="2668.70" y="980.42" angle="0"/>
+    <poi id="-46129072.242.15" type="yield" color="red" x="2775.64" y="824.26" angle="0"/>
+    <poi id="-46129074.64.85" type="yield" color="red" x="2691.60" y="858.24" angle="0"/>
+    <poi id="-46129075.62.80" type="yield" color="red" x="2706.50" y="853.96" angle="0"/>
+    <poi id="-46129076.60.79" type="yield" color="red" x="2720.83" y="849.85" angle="0"/>
+    <poi id="-46129077.58.75" type="yield" color="red" x="2735.77" y="845.57" angle="0"/>
+    <poi id="-46129078.35.22" type="yield" color="red" x="2744.84" y="820.69" angle="0"/>
+    <poi id="-46129079#1.2.66" type="right before left" color="255,153,0" x="2664.34" y="793.72" angle="0"/>
+    <poi id="-46129079#2.3.09" type="right before left" color="255,153,0" x="2679.29" y="791.50" angle="0"/>
+    <poi id="-46129079#3.2.82" type="right before left" color="255,153,0" x="2694.67" y="789.22" angle="0"/>
+    <poi id="-46129079#4.2.90" type="right before left" color="255,153,0" x="2709.79" y="786.99" angle="0"/>
+    <poi id="-46129079#5.4.31" type="right before left" color="255,153,0" x="2724.98" y="784.74" angle="0"/>
+    <poi id="-46129079#6.3.99" type="right before left" color="255,153,0" x="2741.52" y="782.24" angle="0"/>
+    <poi id="-46129090#1.0.00" type="priority" color="yellow" x="2695.64" y="754.88" angle="0"/>
+    <poi id="-46129090#2.57.54" type="yield" color="red" x="2693.68" y="744.56" angle="0"/>
+    <poi id="-46129091#1.0.00" type="priority" color="yellow" x="2711.51" y="752.71" angle="0"/>
+    <poi id="-46129091#2.57.32" type="yield" color="red" x="2709.49" y="742.13" angle="0"/>
+    <poi id="-46129092#1.0.00" type="priority" color="yellow" x="2726.12" y="750.54" angle="0"/>
+    <poi id="-46129092#2.57.13" type="yield" color="red" x="2724.10" y="739.89" angle="0"/>
+    <poi id="-46129094#1.7.83" type="yield" color="red" x="2635.24" y="774.91" angle="0"/>
+    <poi id="-46129097#1.0.00" type="priority" color="yellow" x="2666.03" y="759.14" angle="0"/>
+    <poi id="-46129097#2.57.90" type="yield" color="red" x="2664.02" y="749.06" angle="0"/>
+    <poi id="-46129098#1.0.00" type="priority" color="yellow" x="2680.56" y="757.13" angle="0"/>
+    <poi id="-46129098#2.57.72" type="yield" color="red" x="2678.62" y="746.85" angle="0"/>
+    <poi id="-46129102#2.0.11" type="yield" color="red" x="2648.71" y="751.69" angle="0"/>
+    <poi id="-46129102#3.45.86" type="right before left" color="255,153,0" x="2646.27" y="739.41" angle="0"/>
+    <poi id="-46129103#0.84.69" type="right before left" color="255,153,0" x="2641.41" y="746.71" angle="0"/>
+    <poi id="-46129103#1.3.09" type="right before left" color="255,153,0" x="2642.98" y="690.20" angle="0"/>
+    <poi id="-46129103#2.2.77" type="right before left" color="255,153,0" x="2658.34" y="688.06" angle="0"/>
+    <poi id="-46129103#3.3.05" type="right before left" color="255,153,0" x="2673.37" y="685.96" angle="0"/>
+    <poi id="-46129103#4.3.38" type="right before left" color="255,153,0" x="2688.68" y="683.81" angle="0"/>
+    <poi id="-46129103#5.2.20" type="right before left" color="255,153,0" x="2704.32" y="681.63" angle="0"/>
+    <poi id="-46129103#6.6.83" type="right before left" color="255,153,0" x="2718.78" y="679.61" angle="0"/>
+    <poi id="-46129103#7.121.01" type="yield" color="red" x="2737.87" y="677.04" angle="0"/>
+    <poi id="-46129110.47.72" type="right before left" color="255,153,0" x="2550.70" y="748.19" angle="0"/>
+    <poi id="-46129113#0.4.46" type="right before left" color="255,153,0" x="2542.48" y="759.40" angle="0"/>
+    <poi id="-46129113#1.74.08" type="right before left" color="255,153,0" x="2570.07" y="753.97" angle="0"/>
+    <poi id="-46129113#2.9.85" type="right before left" color="255,153,0" x="2527.96" y="697.49" angle="0"/>
+    <poi id="-46129118#0.0.00" type="yield" color="red" x="2537.07" y="763.96" angle="0"/>
+    <poi id="-46129118#1.10.65" type="right before left" color="255,153,0" x="2533.83" y="751.97" angle="0"/>
+    <poi id="-46134996#0.22.30" type="right before left" color="255,153,0" x="2870.03" y="659.78" angle="0"/>
+    <poi id="-46134996#1.4.18" type="priority" color="yellow" x="2908.99" y="652.00" angle="0"/>
+    <poi id="-46135046.82.41" type="priority" color="yellow" x="2918.23" y="650.11" angle="0"/>
+    <poi id="-46135048#0.19.82" type="yield" color="red" x="2898.26" y="642.39" angle="0"/>
+    <poi id="-46135048#1.0.00" type="priority" color="yellow" x="2894.51" y="618.20" angle="0"/>
+    <poi id="-46380818#0.24.26" type="right before left" color="255,153,0" x="2672.37" y="1441.07" angle="0"/>
+    <poi id="-46380818#1.55.82" type="right before left" color="255,153,0" x="2700.07" y="1440.53" angle="0"/>
+    <poi id="-46380821.26.74" type="right before left" color="255,153,0" x="2708.65" y="1435.88" angle="0"/>
+    <poi id="-46380826#0.0.07" type="yield" color="red" x="2761.87" y="1398.70" angle="0"/>
+    <poi id="-46380826#1.105.91" type="priority" color="yellow" x="2746.86" y="1400.43" angle="0"/>
+    <poi id="-46380834#2.2.57" type="yield" color="red" x="2590.18" y="1481.86" angle="0"/>
+    <poi id="-46380842#1.2.18" type="yield" color="red" x="2634.98" y="1479.19" angle="0"/>
+    <poi id="-46380854.19.49" type="yield" color="red" x="2454.88" y="1480.30" angle="0"/>
+    <poi id="-46380862#1.4.19" type="yield" color="red" x="2547.38" y="1489.55" angle="0"/>
+    <poi id="-46380865#0.3.35" type="right before left" color="255,153,0" x="2540.45" y="1480.13" angle="0"/>
+    <poi id="-46380865#1.32.67" type="right before left" color="255,153,0" x="2534.86" y="1466.93" angle="0"/>
+    <poi id="-46380888.26.29" type="priority" color="yellow" x="2185.24" y="1250.52" angle="0"/>
+    <poi id="-46380944.9.50" type="right before left" color="255,153,0" x="2811.81" y="704.86" angle="0"/>
+    <poi id="-46380947.9.91" type="right before left" color="255,153,0" x="2828.81" y="702.21" angle="0"/>
+    <poi id="-46380950.9.97" type="right before left" color="255,153,0" x="2846.19" y="699.47" angle="0"/>
+    <poi id="-46380957#0.1.88" type="right before left" color="255,153,0" x="2861.90" y="667.72" angle="0"/>
+    <poi id="-46380957#1.2.34" type="right before left" color="255,153,0" x="2863.61" y="681.85" angle="0"/>
+    <poi id="-46380957#2.10.18" type="right before left" color="255,153,0" x="2865.44" y="696.51" angle="0"/>
+    <poi id="-46380966#0.36.49" type="yield" color="red" x="2744.12" y="709.01" angle="0"/>
+    <poi id="-46380966#1.1.50" type="right before left" color="255,153,0" x="2792.43" y="701.47" angle="0"/>
+    <poi id="-46380966#2.1.54" type="right before left" color="255,153,0" x="2806.16" y="699.32" angle="0"/>
+    <poi id="-46380966#3.4.81" type="right before left" color="255,153,0" x="2819.93" y="697.17" angle="0"/>
+    <poi id="-46380966#4.5.14" type="right before left" color="255,153,0" x="2836.93" y="694.52" angle="0"/>
+    <poi id="-46380966#5.7.20" type="right before left" color="255,153,0" x="2854.26" y="691.81" angle="0"/>
+    <poi id="-46380967.119.63" type="yield" color="red" x="2741.25" y="694.43" angle="0"/>
+    <poi id="-46410623#0.17.03" type="priority" color="yellow" x="2945.04" y="1447.18" angle="0"/>
+    <poi id="-46410623#1.114.16" type="right before left" color="255,153,0" x="2928.99" y="1429.97" angle="0"/>
+    <poi id="-46410623#2.9.36" type="right before left" color="255,153,0" x="2897.06" y="1323.98" angle="0"/>
+    <poi id="-46410623#3.84.72" type="priority" color="yellow" x="2881.27" y="1316.96" angle="0"/>
+    <poi id="-46410623#4.27.25" type="right before left" color="255,153,0" x="2797.96" y="1276.07" angle="0"/>
+    <poi id="-46410630#0.16.38" type="yield" color="red" x="2980.53" y="1678.13" angle="0"/>
+    <poi id="-46410630#1.10.02" type="priority" color="yellow" x="2984.44" y="1711.58" angle="0"/>
+    <poi id="-46410632.45.43" type="priority" color="yellow" x="2814.15" y="1599.12" angle="0"/>
+    <poi id="-46410634#0.55.73" type="priority" color="yellow" x="2778.20" y="1478.18" angle="0"/>
+    <poi id="-46410634#1.0.00" type="right before left" color="255,153,0" x="2780.37" y="1539.94" angle="0"/>
+    <poi id="-46411639#0.0.00" type="yield" color="red" x="1985.00" y="1695.96" angle="0"/>
+    <poi id="-46411639#1.9.57" type="yield" color="red" x="1994.21" y="1696.63" angle="0"/>
+    <poi id="-46411639#3.34.78" type="right before left" color="255,153,0" x="2019.96" y="1698.75" angle="0"/>
+    <poi id="-46411639#4.31.38" type="right before left" color="255,153,0" x="2066.98" y="1702.61" angle="0"/>
+    <poi id="-4707776.9.11" type="yield" color="red" x="2284.05" y="685.13" angle="0"/>
+    <poi id="-4716134#1.53.23" type="priority" color="yellow" x="2327.48" y="1808.75" angle="0"/>
+    <poi id="-47528871#1.0.00" type="yield" color="red" x="2222.00" y="1531.78" angle="0"/>
+    <poi id="-47528871#2.0.00" type="priority" color="yellow" x="2221.29" y="1524.31" angle="0"/>
+    <poi id="-47528873.35.12" type="right before left" color="255,153,0" x="2170.51" y="1728.15" angle="0"/>
+    <poi id="-47528874.41.02" type="right before left" color="255,153,0" x="2056.50" y="1746.28" angle="0"/>
+    <poi id="-47528878.30.75" type="right before left" color="255,153,0" x="2188.62" y="1676.28" angle="0"/>
+    <poi id="-47528879#0.17.61" type="right before left" color="255,153,0" x="2203.68" y="1691.30" angle="0"/>
+    <poi id="-47528879#1.10.75" type="right before left" color="255,153,0" x="2179.24" y="1673.87" angle="0"/>
+    <poi id="-47528880#0.81.83" type="right before left" color="255,153,0" x="2009.78" y="1709.11" angle="0"/>
+    <poi id="-47528880#1.62.25" type="right before left" color="255,153,0" x="2062.47" y="1755.98" angle="0"/>
+    <poi id="-47528881#0.4.94" type="yield" color="red" x="2130.76" y="1763.63" angle="0"/>
+    <poi id="-47528881#1.0.00" type="right before left" color="255,153,0" x="2133.93" y="1752.45" angle="0"/>
+    <poi id="-47528881#2.55.93" type="right before left" color="255,153,0" x="2142.32" y="1732.80" angle="0"/>
+    <poi id="-47528882#1.119.98" type="right before left" color="255,153,0" x="2346.29" y="1719.58" angle="0"/>
+    <poi id="-47528882#3.8.86" type="right before left" color="255,153,0" x="2217.51" y="1748.73" angle="0"/>
+    <poi id="-47528883#0.26.65" type="right before left" color="255,153,0" x="2210.49" y="1739.31" angle="0"/>
+    <poi id="-47528883#1.21.07" type="right before left" color="255,153,0" x="2172.41" y="1743.91" angle="0"/>
+    <poi id="-47528886#1.37.44" type="right before left" color="255,153,0" x="2186.24" y="1732.19" angle="0"/>
+    <poi id="-47528886#2.2.15" type="right before left" color="255,153,0" x="2215.71" y="1699.77" angle="0"/>
+    <poi id="-47528886#3.23.93" type="yield" color="red" x="2220.20" y="1707.12" angle="0"/>
+    <poi id="-47528887.37.30" type="right before left" color="255,153,0" x="2550.33" y="1704.11" angle="0"/>
+    <poi id="-47528892#0.8.58" type="right before left" color="255,153,0" x="2498.97" y="1694.37" angle="0"/>
+    <poi id="-47528893#0.41.12" type="right before left" color="255,153,0" x="2625.79" y="1657.84" angle="0"/>
+    <poi id="-47528893#1.46.65" type="priority" color="yellow" x="2576.62" y="1651.31" angle="0"/>
+    <poi id="-47528894.10.61" type="right before left" color="255,153,0" x="2490.88" y="1546.02" angle="0"/>
+    <poi id="-47528895.11.89" type="yield" color="red" x="2357.63" y="1736.33" angle="0"/>
+    <poi id="-47528896.94.44" type="right before left" color="255,153,0" x="2266.87" y="1581.04" angle="0"/>
+    <poi id="-47528897#0.6.41" type="right before left" color="255,153,0" x="2370.30" y="1574.77" angle="0"/>
+    <poi id="-47528897#1.22.15" type="right before left" color="255,153,0" x="2379.44" y="1592.81" angle="0"/>
+    <poi id="-47528897#2.19.48" type="right before left" color="255,153,0" x="2401.29" y="1614.93" angle="0"/>
+    <poi id="-47528899.42.54" type="right before left" color="255,153,0" x="2412.18" y="1598.59" angle="0"/>
+    <poi id="-47528900#0.59.26" type="right before left" color="255,153,0" x="2614.08" y="1688.65" angle="0"/>
+    <poi id="-47528900#1.1.38" type="right before left" color="255,153,0" x="2557.26" y="1713.68" angle="0"/>
+    <poi id="-47528901#1.6.37" type="priority" color="yellow" x="2632.02" y="1640.45" angle="0"/>
+    <poi id="-47528903#0.24.46" type="yield" color="red" x="2318.56" y="1542.68" angle="0"/>
+    <poi id="-47528903#1.45.52" type="right before left" color="255,153,0" x="2323.12" y="1578.60" angle="0"/>
+    <poi id="-47528909#0.6.59" type="right before left" color="255,153,0" x="2314.15" y="1636.53" angle="0"/>
+    <poi id="-47528910#0.0.67" type="yield" color="red" x="2648.05" y="1598.24" angle="0"/>
+    <poi id="-47528910#1.81.34" type="priority" color="yellow" x="2638.75" y="1597.60" angle="0"/>
+    <poi id="-47528910#2.11.39" type="priority" color="yellow" x="2549.81" y="1587.85" angle="0"/>
+    <poi id="-47528911#0.11.93" type="right before left" color="255,153,0" x="2526.73" y="1574.68" angle="0"/>
+    <poi id="-47528911#1.8.51" type="priority" color="yellow" x="2523.31" y="1592.16" angle="0"/>
+    <poi id="-47528912#1.32.90" type="yield" color="red" x="2645.11" y="1578.00" angle="0"/>
+    <poi id="-47528913#0.36.87" type="priority" color="yellow" x="2604.76" y="1556.27" angle="0"/>
+    <poi id="-47528914.45.02" type="right before left" color="255,153,0" x="2438.89" y="1564.08" angle="0"/>
+    <poi id="-47528916#0.8.41" type="yield" color="red" x="2627.32" y="1703.52" angle="0"/>
+    <poi id="-47528916#1.18.28" type="right before left" color="255,153,0" x="2626.98" y="1684.79" angle="0"/>
+    <poi id="-47528916#2.0.00" type="right before left" color="255,153,0" x="2637.52" y="1657.22" angle="0"/>
+    <poi id="-47528916#3.1.03" type="priority" color="yellow" x="2641.19" y="1649.99" angle="0"/>
+    <poi id="-47528916#4.30.10" type="right before left" color="255,153,0" x="2647.75" y="1637.06" angle="0"/>
+    <poi id="-47528917.104.97" type="right before left" color="255,153,0" x="2006.82" y="1668.07" angle="0"/>
+    <poi id="-47528947.194.57" type="yield" color="red" x="2820.06" y="1844.90" angle="0"/>
+    <poi id="-47529116.12.83" type="right before left" color="255,153,0" x="3079.10" y="1673.35" angle="0"/>
+    <poi id="-47529117.0.00" type="right before left" color="255,153,0" x="3196.66" y="1709.85" angle="0"/>
+    <poi id="-47529118#1.12.42" type="right before left" color="255,153,0" x="3058.76" y="1720.40" angle="0"/>
+    <poi id="-47529119#0.4.26" type="right before left" color="255,153,0" x="3049.51" y="1730.95" angle="0"/>
+    <poi id="-47529119#1.5.16" type="right before left" color="255,153,0" x="3066.10" y="1728.68" angle="0"/>
+    <poi id="-47529119#2.4.89" type="right before left" color="255,153,0" x="3083.53" y="1726.56" angle="0"/>
+    <poi id="-4754403.237.25" type="priority" color="yellow" x="2506.98" y="613.04" angle="0"/>
+    <poi id="-4754404.183.66" type="priority" color="yellow" x="2413.27" y="625.90" angle="0"/>
+    <poi id="-4754405#0.118.35" type="priority" color="yellow" x="2307.42" y="640.55" angle="0"/>
+    <poi id="-4754435.237.95" type="yield" color="red" x="1697.32" y="631.86" angle="0"/>
+    <poi id="-4754437.242.29" type="yield" color="red" x="1798.24" y="619.58" angle="0"/>
+    <poi id="-4754443.91.32" type="priority" color="yellow" x="1854.25" y="722.88" angle="0"/>
+    <poi id="-4754447.131.14" type="yield" color="red" x="1864.10" y="540.75" angle="0"/>
+    <poi id="-4754448#0.94.73" type="priority" color="yellow" x="2190.68" y="510.59" angle="0"/>
+    <poi id="-4754448#1.334.75" type="priority" color="yellow" x="2177.50" y="398.34" angle="0"/>
+    <poi id="-4754485.195.22" type="yield" color="red" x="2013.99" y="530.75" angle="0"/>
+    <poi id="-4754525.352.68" type="priority" color="yellow" x="3265.95" y="514.08" angle="0"/>
+    <poi id="-4754592.355.83" type="priority" color="yellow" x="3165.37" y="527.57" angle="0"/>
+    <poi id="-47568484.61.46" type="right before left" color="255,153,0" x="3051.38" y="1500.77" angle="0"/>
+    <poi id="-47568809.47.72" type="yield" color="red" x="3050.38" y="1434.39" angle="0"/>
+    <poi id="-47569280#0.298.06" type="right before left" color="255,153,0" x="3199.02" y="851.28" angle="0"/>
+    <poi id="-47569280#2.13.38" type="right before left" color="255,153,0" x="3188.49" y="833.59" angle="0"/>
+    <poi id="-47569280#4.3.79" type="right before left" color="255,153,0" x="3156.91" y="838.40" angle="0"/>
+    <poi id="-47569280#5.16.31" type="right before left" color="255,153,0" x="3140.90" y="840.84" angle="0"/>
+    <poi id="-47569280#6.2.31" type="right before left" color="255,153,0" x="3114.75" y="844.82" angle="0"/>
+    <poi id="-47569307.5.95" type="right before left" color="255,153,0" x="3161.72" y="1094.49" angle="0"/>
+    <poi id="-47569312#0.1.12" type="yield" color="red" x="3205.95" y="1570.99" angle="0"/>
+    <poi id="-47569315#1.14.04" type="yield" color="red" x="3239.88" y="1460.68" angle="0"/>
+    <poi id="-47569315#2.0.00" type="priority" color="yellow" x="3234.65" y="1443.72" angle="0"/>
+    <poi id="-47654407.67.92" type="priority" color="yellow" x="1686.38" y="1646.84" angle="0"/>
+    <poi id="-47654408.57.96" type="priority" color="yellow" x="1698.76" y="1678.14" angle="0"/>
+    <poi id="-47654466#0.22.52" type="priority" color="yellow" x="1677.56" y="1672.08" angle="0"/>
+    <poi id="-47654466#1.65.75" type="priority" color="yellow" x="1647.20" y="1675.90" angle="0"/>
+    <poi id="-47875169.44.10" type="yield" color="red" x="1621.37" y="1639.78" angle="0"/>
+    <poi id="-48113628#0.236.00" type="yield" color="red" x="3088.92" y="596.69" angle="0"/>
+    <poi id="-48113628#1.784.12" type="priority" color="yellow" x="3338.45" y="564.08" angle="0"/>
+    <poi id="-48113811#1.22.32" type="yield" color="red" x="3161.02" y="1208.30" angle="0"/>
+    <poi id="-4909717#0.32.58" type="yield" color="red" x="3197.42" y="1484.41" angle="0"/>
+    <poi id="-4909717#3.2.51" type="priority" color="yellow" x="3255.30" y="1476.22" angle="0"/>
+    <poi id="-4909717#4.112.87" type="priority" color="yellow" x="3275.06" y="1473.46" angle="0"/>
+    <poi id="-4909717#5.5.91" type="priority" color="yellow" x="3293.65" y="1372.14" angle="0"/>
+    <poi id="-4909717#6.14.65" type="priority" color="yellow" x="3289.19" y="1354.39" angle="0"/>
+    <poi id="-4909717#7.28.87" type="priority" color="yellow" x="3282.83" y="1328.06" angle="0"/>
+    <poi id="-4909717#8.8.70" type="priority" color="yellow" x="3273.20" y="1287.92" angle="0"/>
+    <poi id="-491516483#1.22.16" type="right before left" color="255,153,0" x="2065.05" y="922.88" angle="0"/>
+    <poi id="-491516483#2.69.23" type="yield" color="red" x="2099.31" y="918.66" angle="0"/>
+    <poi id="-491516483#3.7.82" type="priority" color="yellow" x="2176.71" y="908.62" angle="0"/>
+    <poi id="-493547204.0.00" type="priority" color="yellow" x="2297.21" y="724.45" angle="0"/>
+    <poi id="-493547206#0.143.99" type="priority" color="yellow" x="2280.19" y="754.12" angle="0"/>
+    <poi id="-493547207.126.27" type="yield" color="red" x="2315.21" y="862.61" angle="0"/>
+    <poi id="-5045577#0.0.00" type="yield" color="red" x="2078.33" y="1272.03" angle="0"/>
+    <poi id="-5045577#1.15.36" type="priority" color="yellow" x="2086.29" y="1270.99" angle="0"/>
+    <poi id="-5045577#2.11.30" type="priority" color="yellow" x="2109.73" y="1267.98" angle="0"/>
+    <poi id="-5094887#0.75.33" type="priority" color="yellow" x="2169.50" y="1511.96" angle="0"/>
+    <poi id="-5094887#1.28.34" type="priority" color="yellow" x="2157.59" y="1424.61" angle="0"/>
+    <poi id="-5094894.15.11" type="priority" color="yellow" x="2363.34" y="1298.51" angle="0"/>
+    <poi id="-5094896#0.20.19" type="priority" color="yellow" x="2436.17" y="1456.86" angle="0"/>
+    <poi id="-5094896#1.11.36" type="priority" color="yellow" x="2440.99" y="1489.09" angle="0"/>
+    <poi id="-510329102#1.231.05" type="yield" color="red" x="3170.67" y="1518.84" angle="0"/>
+    <poi id="-52135874#0.0.00" type="priority" color="yellow" x="2135.38" y="1117.32" angle="0"/>
+    <poi id="-52135874#1.69.16" type="priority" color="yellow" x="2127.41" y="1117.36" angle="0"/>
+    <poi id="-52631734#0.171.07" type="right before left" color="255,153,0" x="1962.46" y="776.67" angle="0"/>
+    <poi id="-52631734#2.118.15" type="yield" color="red" x="2143.97" y="728.88" angle="0"/>
+    <poi id="-52631734#3.5.86" type="priority" color="yellow" x="2269.40" y="715.86" angle="0"/>
+    <poi id="-52631734#6.0.00" type="right before left" color="255,153,0" x="2297.40" y="711.29" angle="0"/>
+    <poi id="-52631734#7.0.00" type="yield" color="red" x="2301.39" y="711.49" angle="0"/>
+    <poi id="-5322852#0.2.31" type="priority" color="yellow" x="2771.77" y="1406.78" angle="0"/>
+    <poi id="-5322852#1.15.24" type="priority" color="yellow" x="2770.61" y="1392.09" angle="0"/>
+    <poi id="-5326787#2.51.11" type="priority" color="yellow" x="3292.07" y="1625.84" angle="0"/>
+    <poi id="-5326787#3.15.51" type="priority" color="yellow" x="3229.09" y="1634.16" angle="0"/>
+    <poi id="-54571143.64.28" type="yield" color="red" x="2934.14" y="1536.21" angle="0"/>
+    <poi id="-548116383.0.00" type="yield" color="red" x="1716.78" y="885.93" angle="0"/>
+    <poi id="-548116385.0.00" type="yield" color="red" x="1729.37" y="899.88" angle="0"/>
+    <poi id="-55891710#0.13.10" type="yield" color="red" x="2318.87" y="486.10" angle="0"/>
+    <poi id="-55891710#1.45.32" type="right before left" color="255,153,0" x="2310.81" y="505.93" angle="0"/>
+    <poi id="-55891715.76.98" type="yield" color="red" x="2387.83" y="621.81" angle="0"/>
+    <poi id="-56051586#0.51.89" type="right before left" color="255,153,0" x="3272.82" y="1580.04" angle="0"/>
+    <poi id="-56051588#0.52.86" type="right before left" color="255,153,0" x="3216.12" y="1569.51" angle="0"/>
+    <poi id="-56051588#1.6.64" type="right before left" color="255,153,0" x="3280.20" y="1566.83" angle="0"/>
+    <poi id="-56051589#0.1.74" type="yield" color="red" x="3300.23" y="1618.38" angle="0"/>
+    <poi id="-56051589#1.35.88" type="right before left" color="255,153,0" x="3298.26" y="1604.25" angle="0"/>
+    <poi id="-57010494.48.31" type="yield" color="red" x="3300.92" y="1638.83" angle="0"/>
+    <poi id="-57010496.8.70" type="yield" color="red" x="3236.53" y="1642.34" angle="0"/>
+    <poi id="-58743224.26.85" type="yield" color="red" x="1667.82" y="1632.26" angle="0"/>
+    <poi id="-630680455#0.35.14" type="priority" color="yellow" x="2759.83" y="817.94" angle="0"/>
+    <poi id="-630680455#1.20.20" type="priority" color="yellow" x="2749.90" y="771.56" angle="0"/>
+    <poi id="-630680457#0.5.33" type="priority" color="yellow" x="2628.49" y="762.57" angle="0"/>
+    <poi id="-630680457#2.2.70" type="priority" color="yellow" x="2656.93" y="759.55" angle="0"/>
+    <poi id="-630680457#3.2.05" type="priority" color="yellow" x="2672.15" y="757.23" angle="0"/>
+    <poi id="-630680457#4.2.62" type="priority" color="yellow" x="2686.62" y="755.01" angle="0"/>
+    <poi id="-630680457#5.3.37" type="priority" color="yellow" x="2701.71" y="752.70" angle="0"/>
+    <poi id="-630680457#6.2.17" type="priority" color="yellow" x="2717.52" y="750.29" angle="0"/>
+    <poi id="-630680457#7.0.00" type="priority" color="yellow" x="2730.63" y="748.34" angle="0"/>
+    <poi id="-630680457#8.0.00" type="priority" color="yellow" x="2736.21" y="747.53" angle="0"/>
+    <poi id="-63530495#11.0.32" type="yield" color="red" x="1949.36" y="770.07" angle="0"/>
+    <poi id="-63530495#12.0.00" type="yield" color="red" x="1953.16" y="776.17" angle="0"/>
+    <poi id="-63530495#2.89.82" type="priority" color="yellow" x="1701.19" y="817.63" angle="0"/>
+    <poi id="-63530495#3.0.00" type="priority" color="yellow" x="1796.79" y="806.08" angle="0"/>
+    <poi id="-63530495#4.3.09" type="yield" color="red" x="1805.15" y="799.44" angle="0"/>
+    <poi id="-63530495#5.19.45" type="right before left" color="255,153,0" x="1814.43" y="795.12" angle="0"/>
+    <poi id="-63530495#6.2.52" type="right before left" color="255,153,0" x="1839.95" y="786.83" angle="0"/>
+    <poi id="-63530495#7.0.00" type="priority" color="yellow" x="1852.76" y="784.23" angle="0"/>
+    <poi id="-63906910.116.27" type="priority" color="yellow" x="2373.25" y="1374.32" angle="0"/>
+    <poi id="-654399242#0.80.13" type="priority" color="yellow" x="2017.17" y="621.55" angle="0"/>
+    <poi id="-654399242#2.422.26" type="priority" color="yellow" x="2001.38" y="512.52" angle="0"/>
+    <poi id="-668632632#1.0.69" type="yield" color="red" x="1999.49" y="1799.64" angle="0"/>
+    <poi id="-668801471#0.73.52" type="priority" color="yellow" x="2308.59" y="708.71" angle="0"/>
+    <poi id="-668801471#1.170.48" type="right before left" color="255,153,0" x="2387.26" y="697.06" angle="0"/>
+    <poi id="-668801471#2.0.00" type="right before left" color="255,153,0" x="2562.64" y="678.20" angle="0"/>
+    <poi id="-668801471#3.0.08" type="priority" color="yellow" x="2570.43" y="675.06" angle="0"/>
+    <poi id="-668801471#4.0.00" type="yield" color="red" x="2582.04" y="673.02" angle="0"/>
+    <poi id="-668801472.39.33" type="right before left" color="255,153,0" x="2381.75" y="700.93" angle="0"/>
+    <poi id="-671550129#1.315.61" type="priority" color="yellow" x="1990.21" y="1689.58" angle="0"/>
+    <poi id="-68310781#0.0.00" type="priority" color="yellow" x="2014.96" y="633.09" angle="0"/>
+    <poi id="-68310781#1.2.59" type="priority" color="yellow" x="2015.41" y="649.39" angle="0"/>
+    <poi id="-68310781#2.0.00" type="yield" color="red" x="2016.43" y="663.12" angle="0"/>
+    <poi id="-711979119.64.08" type="yield" color="red" x="2197.77" y="906.98" angle="0"/>
+    <poi id="-725249379#2.0.06" type="yield" color="red" x="2481.93" y="767.76" angle="0"/>
+    <poi id="-725249380#1.0.00" type="priority" color="yellow" x="2476.79" y="780.61" angle="0"/>
+    <poi id="-725249381#0.0.00" type="priority" color="yellow" x="2483.21" y="778.31" angle="0"/>
+    <poi id="-725249381#1.2.93" type="priority" color="yellow" x="2482.19" y="790.81" angle="0"/>
+    <poi id="-93686025#1.30.58" type="right before left" color="255,153,0" x="2050.97" y="887.30" angle="0"/>
+    <poi id="-93686035#1.97.92" type="yield" color="red" x="2129.66" y="764.82" angle="0"/>
+    <poi id="10539028#1.21.93" type="priority" color="yellow" x="2283.77" y="735.73" angle="0"/>
+    <poi id="10539044#0.19.52" type="priority" color="yellow" x="2610.50" y="797.07" angle="0"/>
+    <poi id="10539044#1.13.60" type="priority" color="yellow" x="2616.65" y="817.86" angle="0"/>
+    <poi id="10539044#4.34.49" type="priority" color="yellow" x="2634.72" y="868.42" angle="0"/>
+    <poi id="10539447.111.83" type="priority" color="yellow" x="2107.32" y="1519.88" angle="0"/>
+    <poi id="10585181#0.3.45" type="priority" color="yellow" x="2648.44" y="878.02" angle="0"/>
+    <poi id="10585181#1.29.25" type="priority" color="yellow" x="2684.59" y="866.80" angle="0"/>
+    <poi id="10585181#2.3.11" type="priority" color="yellow" x="2699.50" y="862.53" angle="0"/>
+    <poi id="10585181#3.2.49" type="priority" color="yellow" x="2713.81" y="858.43" angle="0"/>
+    <poi id="10585181#4.3.16" type="priority" color="yellow" x="2728.77" y="854.14" angle="0"/>
+    <poi id="10585181#5.0.28" type="yield" color="red" x="2740.96" y="850.64" angle="0"/>
+    <poi id="10585186.35.24" type="priority" color="yellow" x="2750.28" y="787.12" angle="0"/>
+    <poi id="10585197#1.92.24" type="priority" color="yellow" x="2778.86" y="938.55" angle="0"/>
+    <poi id="10585197#2.25.31" type="priority" color="yellow" x="2787.28" y="969.27" angle="0"/>
+    <poi id="10585498#0.5.64" type="priority" color="yellow" x="3110.94" y="553.87" angle="0"/>
+    <poi id="10585498#1.51.54" type="yield" color="red" x="3063.44" y="530.93" angle="0"/>
+    <poi id="10585502#0.45.06" type="priority" color="yellow" x="3020.92" y="563.97" angle="0"/>
+    <poi id="10585502#1.0.00" type="priority" color="yellow" x="3001.21" y="568.53" angle="0"/>
+    <poi id="10585502#2.36.50" type="yield" color="red" x="2942.61" y="574.48" angle="0"/>
+    <poi id="10670088.14.47" type="yield" color="red" x="2309.46" y="1382.71" angle="0"/>
+    <poi id="10670468#2.0.00" type="priority" color="yellow" x="2663.04" y="997.15" angle="0"/>
+    <poi id="10670468#3.38.09" type="priority" color="yellow" x="2621.03" y="1009.76" angle="0"/>
+    <poi id="11040357#0.113.02" type="priority" color="yellow" x="2216.03" y="815.60" angle="0"/>
+    <poi id="11040357#1.12.01" type="priority" color="yellow" x="2245.63" y="808.22" angle="0"/>
+    <poi id="11040357#2.39.85" type="priority" color="yellow" x="2229.94" y="801.95" angle="0"/>
+    <poi id="11294993.60.88" type="priority" color="yellow" x="2576.40" y="1315.83" angle="0"/>
+    <poi id="11294994.135.55" type="priority" color="yellow" x="2507.53" y="1316.94" angle="0"/>
+    <poi id="113700442#0.57.76" type="right before left" color="255,153,0" x="3260.58" y="1364.76" angle="0"/>
+    <poi id="113700442#1.8.69" type="yield" color="red" x="3281.52" y="1362.15" angle="0"/>
+    <poi id="113700443.10.32" type="yield" color="red" x="3243.94" y="1283.28" angle="0"/>
+    <poi id="113700444.2.16" type="right before left" color="255,153,0" x="3255.75" y="1416.07" angle="0"/>
+    <poi id="113700446#0.10.24" type="right before left" color="255,153,0" x="3263.51" y="1350.53" angle="0"/>
+    <poi id="113700446#2.36.92" type="right before left" color="255,153,0" x="3249.96" y="1299.19" angle="0"/>
+    <poi id="113700446#3.27.63" type="yield" color="red" x="3215.72" y="1303.28" angle="0"/>
+    <poi id="113700447#0.11.03" type="right before left" color="255,153,0" x="3250.89" y="1491.23" angle="0"/>
+    <poi id="113700447#1.48.42" type="right before left" color="255,153,0" x="3258.31" y="1548.36" angle="0"/>
+    <poi id="113700448#0.11.87" type="right before left" color="255,153,0" x="3247.56" y="1407.96" angle="0"/>
+    <poi id="113700449#0.8.49" type="priority" color="yellow" x="3207.95" y="1292.47" angle="0"/>
+    <poi id="113700451.8.29" type="right before left" color="255,153,0" x="3270.12" y="1339.08" angle="0"/>
+    <poi id="114900092#1.0.00" type="yield" color="red" x="2152.38" y="830.53" angle="0"/>
+    <poi id="114900092#3.53.16" type="yield" color="red" x="2133.34" y="773.41" angle="0"/>
+    <poi id="114900092#4.24.74" type="yield" color="red" x="2127.94" y="736.73" angle="0"/>
+    <poi id="11527061#1.34.25" type="yield" color="red" x="2177.95" y="1242.67" angle="0"/>
+    <poi id="11527061#2.8.40" type="yield" color="red" x="2198.65" y="1240.45" angle="0"/>
+    <poi id="11527078#1.174.86" type="yield" color="red" x="2303.27" y="1360.63" angle="0"/>
+    <poi id="115936848#0.35.16" type="yield" color="red" x="2610.82" y="833.67" angle="0"/>
+    <poi id="116895895#0.56.18" type="right before left" color="255,153,0" x="2955.32" y="1303.81" angle="0"/>
+    <poi id="116895895#1.119.82" type="right before left" color="255,153,0" x="3030.35" y="1208.23" angle="0"/>
+    <poi id="116895895#2.29.28" type="right before left" color="255,153,0" x="3028.08" y="1172.07" angle="0"/>
+    <poi id="116895895#3.15.50" type="right before left" color="255,153,0" x="3017.21" y="1153.02" angle="0"/>
+    <poi id="116895895#4.571.84" type="priority" color="yellow" x="2785.63" y="937.89" angle="0"/>
+    <poi id="116895895#5.50.96" type="right before left" color="255,153,0" x="2802.38" y="992.00" angle="0"/>
+    <poi id="116895895#6.6.47" type="priority" color="yellow" x="2806.51" y="1005.91" angle="0"/>
+    <poi id="116895895#7.89.22" type="priority" color="yellow" x="2831.97" y="1100.02" angle="0"/>
+    <poi id="116895895#8.83.93" type="priority" color="yellow" x="2843.66" y="1191.97" angle="0"/>
+    <poi id="116895895#9.182.90" type="right before left" color="255,153,0" x="3013.20" y="1144.58" angle="0"/>
+    <poi id="117803631.312.96" type="right before left" color="255,153,0" x="3165.57" y="1113.45" angle="0"/>
+    <poi id="122326981.43.53" type="yield" color="red" x="2848.73" y="1579.67" angle="0"/>
+    <poi id="122620073.24.19" type="yield" color="red" x="3073.85" y="1626.42" angle="0"/>
+    <poi id="123555869#0.5.14" type="priority" color="yellow" x="3240.94" y="1501.76" angle="0"/>
+    <poi id="123555869#1.82.35" type="right before left" color="255,153,0" x="3238.43" y="1555.53" angle="0"/>
+    <poi id="123555870.76.37" type="yield" color="red" x="3281.81" y="1295.72" angle="0"/>
+    <poi id="126461435.5.35" type="right before left" color="255,153,0" x="3249.89" y="1554.11" angle="0"/>
+    <poi id="126461436.49.74" type="right before left" color="255,153,0" x="3244.09" y="1551.70" angle="0"/>
+    <poi id="139327098#2.0.00" type="priority" color="yellow" x="1976.63" y="720.64" angle="0"/>
+    <poi id="139327101.25.43" type="yield" color="red" x="1990.18" y="660.18" angle="0"/>
+    <poi id="139327105#1.0.00" type="yield" color="red" x="1974.46" y="744.15" angle="0"/>
+    <poi id="139327106#0.36.00" type="priority" color="yellow" x="2127.01" y="693.15" angle="0"/>
+    <poi id="139327109#2.0.00" type="yield" color="red" x="1949.75" y="715.19" angle="0"/>
+    <poi id="139327110.103.08" type="priority" color="yellow" x="2272.74" y="698.82" angle="0"/>
+    <poi id="139332149.16.10" type="yield" color="red" x="1670.56" y="791.91" angle="0"/>
+    <poi id="139332150.80.09" type="yield" color="red" x="1650.75" y="658.62" angle="0"/>
+    <poi id="139332152#0.0.00" type="priority" color="yellow" x="2576.06" y="666.34" angle="0"/>
+    <poi id="139332152#1.1.00" type="priority" color="yellow" x="2577.04" y="675.10" angle="0"/>
+    <poi id="139332152#2.43.31" type="priority" color="yellow" x="2589.80" y="728.75" angle="0"/>
+    <poi id="139332152#3.0.00" type="priority" color="yellow" x="2594.95" y="751.72" angle="0"/>
+    <poi id="139332157#0.84.95" type="priority" color="yellow" x="3077.05" y="623.76" angle="0"/>
+    <poi id="139332157#2.0.00" type="yield" color="red" x="3069.48" y="593.52" angle="0"/>
+    <poi id="139332158.0.00" type="yield" color="red" x="3003.26" y="566.72" angle="0"/>
+    <poi id="139332159.0.00" type="yield" color="red" x="3009.36" y="594.14" angle="0"/>
+    <poi id="139332160.2.34" type="yield" color="red" x="3003.50" y="581.33" angle="0"/>
+    <poi id="139332617#0.62.92" type="priority" color="yellow" x="3054.28" y="453.35" angle="0"/>
+    <poi id="14540342#5.65.56" type="yield" color="red" x="2305.78" y="713.66" angle="0"/>
+    <poi id="146181188#0.18.50" type="yield" color="red" x="2895.97" y="1307.55" angle="0"/>
+    <poi id="146181189#1.82.83" type="right before left" color="255,153,0" x="2879.39" y="1237.69" angle="0"/>
+    <poi id="146181189#2.8.16" type="priority" color="yellow" x="2887.99" y="1247.46" angle="0"/>
+    <poi id="149270014.0.00" type="yield" color="red" x="2773.99" y="1109.89" angle="0"/>
+    <poi id="149270942#0.1.47" type="right before left" color="255,153,0" x="2657.88" y="975.55" angle="0"/>
+    <poi id="154643611.0.24" type="yield" color="red" x="3205.51" y="1383.66" angle="0"/>
+    <poi id="15474782#0.94.05" type="priority" color="yellow" x="1941.94" y="763.91" angle="0"/>
+    <poi id="15474782#1.18.01" type="priority" color="yellow" x="1965.01" y="751.26" angle="0"/>
+    <poi id="15474991#0.25.71" type="priority" color="yellow" x="2137.03" y="690.35" angle="0"/>
+    <poi id="15474991#1.25.35" type="priority" color="yellow" x="2095.24" y="685.83" angle="0"/>
+    <poi id="15474991#2.5.53" type="priority" color="yellow" x="2085.02" y="675.64" angle="0"/>
+    <poi id="15474991#3.0.06" type="priority" color="yellow" x="2080.75" y="658.82" angle="0"/>
+    <poi id="161622033.112.52" type="right before left" color="255,153,0" x="3321.56" y="1241.33" angle="0"/>
+    <poi id="161622034.14.56" type="priority" color="yellow" x="2097.77" y="1549.72" angle="0"/>
+    <poi id="161622036#1.51.46" type="right before left" color="255,153,0" x="3231.45" y="1254.87" angle="0"/>
+    <poi id="165828352#0.58.76" type="priority" color="yellow" x="3131.58" y="1170.25" angle="0"/>
+    <poi id="165828352#3.226.67" type="priority" color="yellow" x="3176.36" y="1518.16" angle="0"/>
+    <poi id="165828381-AddedOffRampEdge.88.92" type="priority" color="yellow" x="2173.15" y="681.55" angle="0"/>
+    <poi id="165828382#0.31.54" type="priority" color="yellow" x="3041.90" y="584.92" angle="0"/>
+    <poi id="167571346.3.82" type="priority" color="yellow" x="1922.81" y="736.52" angle="0"/>
+    <poi id="16986734#0.11.67" type="priority" color="yellow" x="2030.40" y="642.83" angle="0"/>
+    <poi id="16986734#1.0.00" type="yield" color="red" x="2018.67" y="633.53" angle="0"/>
+    <poi id="16992996#0.18.34" type="priority" color="yellow" x="2028.93" y="656.88" angle="0"/>
+    <poi id="16992996#1.0.00" type="priority" color="yellow" x="2013.29" y="661.27" angle="0"/>
+    <poi id="16992996#2.75.96" type="priority" color="yellow" x="1943.75" y="705.75" angle="0"/>
+    <poi id="16992996#3.49.60" type="priority" color="yellow" x="1897.47" y="736.43" angle="0"/>
+    <poi id="17133664#0.15.77" type="priority" color="yellow" x="1990.56" y="664.71" angle="0"/>
+    <poi id="17133664#1.48.53" type="priority" color="yellow" x="1938.00" y="694.07" angle="0"/>
+    <poi id="17133664#2.73.79" type="priority" color="yellow" x="1865.61" y="731.59" angle="0"/>
+    <poi id="172916432#0.0.00" type="priority" color="yellow" x="1999.61" y="1289.21" angle="0"/>
+    <poi id="172916432#1.0.00" type="priority" color="yellow" x="2004.08" y="1290.13" angle="0"/>
+    <poi id="172916432#2.0.00" type="priority" color="yellow" x="2005.44" y="1285.92" angle="0"/>
+    <poi id="172916432#3.0.00" type="priority" color="yellow" x="2000.70" y="1285.21" angle="0"/>
+    <poi id="172916436.50.01" type="yield" color="red" x="2060.98" y="1279.56" angle="0"/>
+    <poi id="172916437#0.276.28" type="priority" color="yellow" x="1966.54" y="1003.47" angle="0"/>
+    <poi id="172916437#1.198.36" type="priority" color="yellow" x="1921.88" y="801.45" angle="0"/>
+    <poi id="172916438.74.04" type="priority" color="yellow" x="1989.27" y="1288.08" angle="0"/>
+    <poi id="172916442.253.12" type="priority" color="yellow" x="2003.17" y="1300.65" angle="0"/>
+    <poi id="179269278.75.47" type="priority" color="yellow" x="1819.72" y="1311.85" angle="0"/>
+    <poi id="179269280.74.77" type="priority" color="yellow" x="1723.68" y="1323.45" angle="0"/>
+    <poi id="179269282.252.24" type="priority" color="yellow" x="1711.86" y="1336.20" angle="0"/>
+    <poi id="179269283.252.21" type="priority" color="yellow" x="1807.83" y="1324.55" angle="0"/>
+    <poi id="179269285.252.10" type="priority" color="yellow" x="1905.47" y="1312.86" angle="0"/>
+    <poi id="179269286.384.54" type="priority" color="yellow" x="1745.02" y="926.56" angle="0"/>
+    <poi id="179269288.322.73" type="priority" color="yellow" x="1642.45" y="1004.52" angle="0"/>
+    <poi id="179269289#0.429.22" type="priority" color="yellow" x="1827.69" y="871.11" angle="0"/>
+    <poi id="179269291#1.0.00" type="priority" color="yellow" x="1713.20" y="1326.90" angle="0"/>
+    <poi id="179269291#2.0.00" type="priority" color="yellow" x="1714.64" y="1322.38" angle="0"/>
+    <poi id="179269291#3.0.00" type="priority" color="yellow" x="1710.05" y="1320.77" angle="0"/>
+    <poi id="179269291#4.0.00" type="priority" color="yellow" x="1708.36" y="1325.48" angle="0"/>
+    <poi id="179269292#1.0.00" type="priority" color="yellow" x="1907.61" y="1301.76" angle="0"/>
+    <poi id="179269292#2.0.00" type="priority" color="yellow" x="1908.01" y="1296.87" angle="0"/>
+    <poi id="179269292#3.0.00" type="priority" color="yellow" x="1902.36" y="1296.93" angle="0"/>
+    <poi id="179269292#4.0.00" type="priority" color="yellow" x="1902.80" y="1301.72" angle="0"/>
+    <poi id="179269293#1.0.00" type="priority" color="yellow" x="1809.25" y="1315.33" angle="0"/>
+    <poi id="179269293#2.0.00" type="priority" color="yellow" x="1810.64" y="1310.77" angle="0"/>
+    <poi id="179269293#3.0.00" type="priority" color="yellow" x="1806.09" y="1309.19" angle="0"/>
+    <poi id="179269293#4.0.00" type="priority" color="yellow" x="1804.52" y="1313.90" angle="0"/>
+    <poi id="179270550#0.38.16" type="priority" color="yellow" x="2801.18" y="1749.86" angle="0"/>
+    <poi id="179270550#1.75.05" type="priority" color="yellow" x="2812.41" y="1836.65" angle="0"/>
+    <poi id="179384834#0.206.70" type="priority" color="yellow" x="1640.56" y="648.24" angle="0"/>
+    <poi id="179384834#1.29.55" type="priority" color="yellow" x="1687.10" y="642.15" angle="0"/>
+    <poi id="179384834#2.84.14" type="priority" color="yellow" x="1787.86" y="629.76" angle="0"/>
+    <poi id="179384834#3.26.68" type="priority" color="yellow" x="1831.65" y="624.86" angle="0"/>
+    <poi id="179543418.24.59" type="yield" color="red" x="3083.71" y="601.10" angle="0"/>
+    <poi id="179543420.93.39" type="right before left" color="255,153,0" x="3241.39" y="638.93" angle="0"/>
+    <poi id="186981010.31.22" type="yield" color="red" x="3279.02" y="1525.96" angle="0"/>
+    <poi id="186981199#0.16.47" type="right before left" color="255,153,0" x="2819.52" y="1747.50" angle="0"/>
+    <poi id="186981199#1.7.32" type="right before left" color="255,153,0" x="2838.08" y="1738.59" angle="0"/>
+    <poi id="186981202.15.26" type="right before left" color="255,153,0" x="2845.37" y="1746.88" angle="0"/>
+    <poi id="186981203.11.39" type="right before left" color="255,153,0" x="2826.81" y="1753.48" angle="0"/>
+    <poi id="187647520#0.33.71" type="right before left" color="255,153,0" x="3041.26" y="1738.47" angle="0"/>
+    <poi id="19579792.300.23" type="priority" color="yellow" x="2548.81" y="315.84" angle="0"/>
+    <poi id="198691693.1.21" type="priority" color="yellow" x="1945.68" y="748.33" angle="0"/>
+    <poi id="198691696#0.211.37" type="priority" color="yellow" x="1663.30" y="805.73" angle="0"/>
+    <poi id="198691696#1.4.79" type="priority" color="yellow" x="1680.19" y="803.49" angle="0"/>
+    <poi id="198691696#2.27.56" type="priority" color="yellow" x="1725.43" y="800.27" angle="0"/>
+    <poi id="198691696#5.0.00" type="priority" color="yellow" x="1887.83" y="763.60" angle="0"/>
+    <poi id="198711889#0.293.67" type="priority" color="yellow" x="1725.70" y="915.86" angle="0"/>
+    <poi id="198711889#1.64.33" type="priority" color="yellow" x="1790.01" y="864.58" angle="0"/>
+    <poi id="202224584#0.0.65" type="yield" color="red" x="3116.43" y="1173.41" angle="0"/>
+    <poi id="202224584#1.0.00" type="yield" color="red" x="3124.80" y="1173.29" angle="0"/>
+    <poi id="202904794#1.0.15" type="yield" color="red" x="1896.60" y="736.74" angle="0"/>
+    <poi id="202904794#2.5.86" type="priority" color="yellow" x="1780.62" y="756.98" angle="0"/>
+    <poi id="202904794#3.93.19" type="priority" color="yellow" x="1676.03" y="762.96" angle="0"/>
+    <poi id="203086244#0.84.38" type="priority" color="yellow" x="2748.42" y="597.54" angle="0"/>
+    <poi id="203086244#1.69.96" type="priority" color="yellow" x="2669.23" y="614.02" angle="0"/>
+    <poi id="203086244#2.9.45" type="priority" color="yellow" x="2552.75" y="627.27" angle="0"/>
+    <poi id="203086244#4.104.14" type="priority" color="yellow" x="2438.64" y="645.49" angle="0"/>
+    <poi id="203086244#5.68.23" type="priority" color="yellow" x="2351.51" y="657.21" angle="0"/>
+    <poi id="203087928#0.438.27" type="priority" color="yellow" x="3035.73" y="435.02" angle="0"/>
+    <poi id="203087928#1.74.57" type="priority" color="yellow" x="3043.79" y="526.76" angle="0"/>
+    <poi id="203087930#0.10.23" type="yield" color="red" x="3049.41" y="547.40" angle="0"/>
+    <poi id="203087930#3.0.90" type="priority" color="yellow" x="3054.48" y="592.94" angle="0"/>
+    <poi id="203087930#4.10.15" type="priority" color="yellow" x="3056.85" y="612.31" angle="0"/>
+    <poi id="204241141#10.52.31" type="priority" color="yellow" x="2822.01" y="1688.83" angle="0"/>
+    <poi id="204241141#2.30.10" type="priority" color="yellow" x="3148.55" y="1647.70" angle="0"/>
+    <poi id="204241141#3.25.98" type="priority" color="yellow" x="3105.58" y="1653.55" angle="0"/>
+    <poi id="204241141#4.9.66" type="priority" color="yellow" x="3083.72" y="1656.38" angle="0"/>
+    <poi id="204241141#5.37.46" type="priority" color="yellow" x="3034.25" y="1662.64" angle="0"/>
+    <poi id="204241141#6.31.09" type="priority" color="yellow" x="2991.07" y="1667.98" angle="0"/>
+    <poi id="204241141#8.40.71" type="priority" color="yellow" x="2926.22" y="1675.95" angle="0"/>
+    <poi id="204241141#9.21.24" type="priority" color="yellow" x="2887.86" y="1680.57" angle="0"/>
+    <poi id="204241143#0.20.73" type="priority" color="yellow" x="3201.81" y="1611.05" angle="0"/>
+    <poi id="204241143#1.23.54" type="priority" color="yellow" x="3197.63" y="1578.52" angle="0"/>
+    <poi id="204241143#2.72.00" type="priority" color="yellow" x="3186.93" y="1494.80" angle="0"/>
+    <poi id="204241143#5.53.16" type="priority" color="yellow" x="3151.87" y="1216.00" angle="0"/>
+    <poi id="204241143#6.91.38" type="priority" color="yellow" x="3138.82" y="1113.05" angle="0"/>
+    <poi id="204241148#0.59.72" type="priority" color="yellow" x="2027.37" y="1558.49" angle="0"/>
+    <poi id="204241148#1.41.11" type="priority" color="yellow" x="2085.51" y="1551.88" angle="0"/>
+    <poi id="204241149.19.50" type="yield" color="red" x="2778.07" y="1691.35" angle="0"/>
+    <poi id="204241151#0.53.04" type="priority" color="yellow" x="3201.55" y="1700.03" angle="0"/>
+    <poi id="208198637#0.0.00" type="priority" color="yellow" x="2797.22" y="1692.44" angle="0"/>
+    <poi id="208198637#1.0.00" type="priority" color="yellow" x="2798.36" y="1688.66" angle="0"/>
+    <poi id="208198637#2.0.00" type="priority" color="yellow" x="2795.26" y="1684.36" angle="0"/>
+    <poi id="208198637#3.0.00" type="priority" color="yellow" x="2792.08" y="1684.04" angle="0"/>
+    <poi id="208198637#4.0.00" type="priority" color="yellow" x="2788.20" y="1686.72" angle="0"/>
+    <poi id="208198637#5.0.00" type="priority" color="yellow" x="2787.58" y="1689.21" angle="0"/>
+    <poi id="208198637#6.0.00" type="priority" color="yellow" x="2788.14" y="1691.94" angle="0"/>
+    <poi id="208198637#7.0.00" type="priority" color="yellow" x="2792.87" y="1694.56" angle="0"/>
+    <poi id="208317134.45.92" type="right before left" color="255,153,0" x="2085.47" y="1292.92" angle="0"/>
+    <poi id="208322135.82.29" type="yield" color="red" x="2173.47" y="1164.56" angle="0"/>
+    <poi id="208322138.0.00" type="yield" color="red" x="2136.12" y="1116.26" angle="0"/>
+    <poi id="209337363#0.327.54" type="priority" color="yellow" x="3236.02" y="1881.06" angle="0"/>
+    <poi id="209337363#1.62.16" type="priority" color="yellow" x="3226.58" y="1806.44" angle="0"/>
+    <poi id="209337363#2.55.70" type="priority" color="yellow" x="3218.01" y="1738.76" angle="0"/>
+    <poi id="210542970#0.348.56" type="priority" color="yellow" x="3331.97" y="524.40" angle="0"/>
+    <poi id="210542970#1-AddedOffRampEdge.88.95" type="priority" color="yellow" x="3128.53" y="549.45" angle="0"/>
+    <poi id="210542970#2.18.53" type="priority" color="yellow" x="3098.04" y="556.58" angle="0"/>
+    <poi id="210542970#3.10.93" type="priority" color="yellow" x="3076.49" y="556.25" angle="0"/>
+    <poi id="22663176#0.8.65" type="right before left" color="255,153,0" x="3324.14" y="1251.10" angle="0"/>
+    <poi id="22663176#1.130.30" type="right before left" color="255,153,0" x="3303.96" y="1129.95" angle="0"/>
+    <poi id="22663178#1.84.09" type="right before left" color="255,153,0" x="3274.15" y="1188.32" angle="0"/>
+    <poi id="22663178#2.65.43" type="yield" color="red" x="3283.90" y="1262.50" angle="0"/>
+    <poi id="22663227#0.4.34" type="right before left" color="255,153,0" x="3234.05" y="1267.30" angle="0"/>
+    <poi id="22663227#1.52.33" type="right before left" color="255,153,0" x="3235.15" y="1204.75" angle="0"/>
+    <poi id="22663227#2.103.09" type="right before left" color="255,153,0" x="3218.55" y="1196.75" angle="0"/>
+    <poi id="22663229#0.25.39" type="right before left" color="255,153,0" x="3243.76" y="1199.14" angle="0"/>
+    <poi id="22663229#1.5.73" type="right before left" color="255,153,0" x="3225.66" y="1201.89" angle="0"/>
+    <poi id="22898388.0.00" type="yield" color="red" x="3319.27" y="518.36" angle="0"/>
+    <poi id="23693592#0.47.82" type="yield" color="red" x="1935.52" y="798.86" angle="0"/>
+    <poi id="237508424.8.86" type="yield" color="red" x="1936.18" y="752.29" angle="0"/>
+    <poi id="238187954#0.11.35" type="priority" color="yellow" x="2657.52" y="1581.26" angle="0"/>
+    <poi id="238187954#1.13.61" type="priority" color="yellow" x="2651.53" y="1560.16" angle="0"/>
+    <poi id="238187954#10.124.54" type="right before left" color="255,153,0" x="2028.62" y="1604.15" angle="0"/>
+    <poi id="238187954#11.54.52" type="right before left" color="255,153,0" x="2013.58" y="1662.47" angle="0"/>
+    <poi id="238187954#12.14.10" type="right before left" color="255,153,0" x="2010.70" y="1688.81" angle="0"/>
+    <poi id="238187954#2.157.86" type="right before left" color="255,153,0" x="2496.95" y="1538.91" angle="0"/>
+    <poi id="238187954#3.18.84" type="right before left" color="255,153,0" x="2469.00" y="1539.27" angle="0"/>
+    <poi id="238187954#4.12.96" type="right before left" color="255,153,0" x="2444.28" y="1544.57" angle="0"/>
+    <poi id="238187954#5.57.95" type="right before left" color="255,153,0" x="2378.05" y="1566.43" angle="0"/>
+    <poi id="238187954#6.33.34" type="right before left" color="255,153,0" x="2331.56" y="1572.00" angle="0"/>
+    <poi id="238187954#7.43.03" type="right before left" color="255,153,0" x="2276.30" y="1577.70" angle="0"/>
+    <poi id="238187954#8.59.70" type="right before left" color="255,153,0" x="2204.77" y="1569.82" angle="0"/>
+    <poi id="238187954#9.56.30" type="yield" color="red" x="2154.72" y="1603.22" angle="0"/>
+    <poi id="241571548.38.07" type="right before left" color="255,153,0" x="2534.42" y="1473.70" angle="0"/>
+    <poi id="24488541#0.14.52" type="priority" color="yellow" x="2998.82" y="593.30" angle="0"/>
+    <poi id="24488541#1.24.57" type="priority" color="yellow" x="3034.03" y="595.97" angle="0"/>
+    <poi id="24488541#2.12.65" type="yield" color="red" x="3057.82" y="611.74" angle="0"/>
+    <poi id="24488547#0.10.97" type="priority" color="yellow" x="3074.35" y="602.04" angle="0"/>
+    <poi id="24488547#1.18.51" type="yield" color="red" x="3098.18" y="581.04" angle="0"/>
+    <poi id="24689612.18.49" type="right before left" color="255,153,0" x="2998.40" y="1508.21" angle="0"/>
+    <poi id="24689623#1.0.00" type="yield" color="red" x="2947.00" y="1457.14" angle="0"/>
+    <poi id="24690148.147.06" type="right before left" color="255,153,0" x="2924.09" y="1432.59" angle="0"/>
+    <poi id="24801549#0.67.36" type="priority" color="yellow" x="2643.16" y="1490.92" angle="0"/>
+    <poi id="24801549#1.29.82" type="priority" color="yellow" x="2600.72" y="1496.12" angle="0"/>
+    <poi id="24801549#2.28.36" type="priority" color="yellow" x="2555.31" y="1501.73" angle="0"/>
+    <poi id="24801549#3.87.67" type="priority" color="yellow" x="2455.98" y="1514.01" angle="0"/>
+    <poi id="24801549#4.116.03" type="priority" color="yellow" x="2325.94" y="1529.21" angle="0"/>
+    <poi id="24801549#5.82.06" type="priority" color="yellow" x="2232.29" y="1540.67" angle="0"/>
+    <poi id="24801549#6.41.32" type="priority" color="yellow" x="2176.13" y="1534.53" angle="0"/>
+    <poi id="250248456#0.0.00" type="priority" color="yellow" x="2305.06" y="1376.12" angle="0"/>
+    <poi id="250248456#1.114.44" type="priority" color="yellow" x="2185.83" y="1391.03" angle="0"/>
+    <poi id="250248456#4.11.92" type="priority" color="yellow" x="2128.80" y="1399.44" angle="0"/>
+    <poi id="250248456#5.17.61" type="yield" color="red" x="2098.97" y="1402.59" angle="0"/>
+    <poi id="25420780#0.7.17" type="priority" color="yellow" x="2873.51" y="1666.78" angle="0"/>
+    <poi id="255720420.6.06" type="right before left" color="255,153,0" x="3340.42" y="608.12" angle="0"/>
+    <poi id="255720422.170.30" type="right before left" color="255,153,0" x="3170.13" y="842.60" angle="0"/>
+    <poi id="255720424.12.37" type="right before left" color="255,153,0" x="3161.32" y="821.69" angle="0"/>
+    <poi id="255720426.18.69" type="right before left" color="255,153,0" x="3116.04" y="852.43" angle="0"/>
+    <poi id="255720427#0.45.73" type="right before left" color="255,153,0" x="3206.11" y="1036.01" angle="0"/>
+    <poi id="255720429#0.27.88" type="right before left" color="255,153,0" x="3158.49" y="1057.41" angle="0"/>
+    <poi id="255720431#0.41.19" type="right before left" color="255,153,0" x="3135.25" y="797.07" angle="0"/>
+    <poi id="255720431#1.38.24" type="right before left" color="255,153,0" x="3157.03" y="813.00" angle="0"/>
+    <poi id="25757262#0.15.96" type="priority" color="yellow" x="2602.81" y="648.73" angle="0"/>
+    <poi id="25757262#1.77.61" type="priority" color="yellow" x="2691.07" y="638.38" angle="0"/>
+    <poi id="25757262#3.150.45" type="priority" color="yellow" x="2881.47" y="608.71" angle="0"/>
+    <poi id="25757262#4.73.58" type="priority" color="yellow" x="2971.86" y="598.55" angle="0"/>
+    <poi id="25757265#2.2.70" type="priority" color="yellow" x="1937.81" y="754.31" angle="0"/>
+    <poi id="261979202.33.82" type="yield" color="red" x="1974.79" y="996.09" angle="0"/>
+    <poi id="262004102.0.00" type="yield" color="red" x="3232.25" y="1444.42" angle="0"/>
+    <poi id="274716109#0.73.09" type="right before left" color="255,153,0" x="3247.87" y="1803.72" angle="0"/>
+    <poi id="274716110.8.07" type="yield" color="red" x="3235.19" y="1799.92" angle="0"/>
+    <poi id="28257062.92.06" type="priority" color="yellow" x="3040.92" y="1438.27" angle="0"/>
+    <poi id="282890106.38.24" type="priority" color="yellow" x="3267.51" y="1526.77" angle="0"/>
+    <poi id="28338493#0.14.66" type="priority" color="yellow" x="1629.01" y="1629.83" angle="0"/>
+    <poi id="28338493#1.0.00" type="priority" color="yellow" x="1638.94" y="1641.53" angle="0"/>
+    <poi id="28338493#2.3.12" type="priority" color="yellow" x="1658.21" y="1648.72" angle="0"/>
+    <poi id="28338493#3.0.00" type="priority" color="yellow" x="1675.23" y="1649.50" angle="0"/>
+    <poi id="28338493#4.7.36" type="yield" color="red" x="1687.83" y="1660.87" angle="0"/>
+    <poi id="28338493#6.95.26" type="priority" color="yellow" x="1757.91" y="1710.01" angle="0"/>
+    <poi id="28338493#7.4.40" type="yield" color="red" x="1768.46" y="1708.80" angle="0"/>
+    <poi id="28377256#0.89.32" type="right before left" color="255,153,0" x="2879.90" y="1574.93" angle="0"/>
+    <poi id="28377256#1.21.61" type="right before left" color="255,153,0" x="2868.30" y="1551.95" angle="0"/>
+    <poi id="28377256#2.0.00" type="right before left" color="255,153,0" x="2864.47" y="1544.92" angle="0"/>
+    <poi id="28533357.121.10" type="yield" color="red" x="2357.16" y="1290.12" angle="0"/>
+    <poi id="28595663.68.14" type="yield" color="red" x="2578.18" y="1292.14" angle="0"/>
+    <poi id="28715158#0.4.78" type="right before left" color="255,153,0" x="2076.84" y="1261.28" angle="0"/>
+    <poi id="28715158#1.44.58" type="yield" color="red" x="2067.33" y="1217.72" angle="0"/>
+    <poi id="28715158#2.232.77" type="priority" color="yellow" x="2015.17" y="1000.74" angle="0"/>
+    <poi id="28715158#3.0.00" type="priority" color="yellow" x="2018.58" y="985.52" angle="0"/>
+    <poi id="28715158#4.8.10" type="priority" color="yellow" x="2023.20" y="971.21" angle="0"/>
+    <poi id="28715158#5.176.14" type="right before left" color="255,153,0" x="1988.28" y="800.63" angle="0"/>
+    <poi id="28715158#6.26.71" type="right before left" color="255,153,0" x="1960.50" y="781.58" angle="0"/>
+    <poi id="288985250.0.00" type="priority" color="yellow" x="1950.30" y="725.35" angle="0"/>
+    <poi id="288985252#1.77.95" type="yield" color="red" x="2074.49" y="653.50" angle="0"/>
+    <poi id="289004372#0.440.77" type="priority" color="yellow" x="2335.36" y="427.96" angle="0"/>
+    <poi id="289004372#2.194.71" type="priority" color="yellow" x="2163.09" y="559.91" angle="0"/>
+    <poi id="289004372#3.0.00" type="yield" color="red" x="2075.72" y="625.14" angle="0"/>
+    <poi id="289004372#4.9.21" type="priority" color="yellow" x="2056.44" y="638.77" angle="0"/>
+    <poi id="289004372#5.25.52" type="priority" color="yellow" x="2024.00" y="661.68" angle="0"/>
+    <poi id="291746546.14.36" type="yield" color="red" x="1665.05" y="752.33" angle="0"/>
+    <poi id="298236180#1.0.18" type="right before left" color="255,153,0" x="2704.55" y="1287.43" angle="0"/>
+    <poi id="298236180#2.17.29" type="right before left" color="255,153,0" x="2703.83" y="1257.75" angle="0"/>
+    <poi id="298236180#3.5.00" type="right before left" color="255,153,0" x="2695.28" y="1252.18" angle="0"/>
+    <poi id="298236180#4.2.05" type="priority" color="yellow" x="2680.88" y="1253.69" angle="0"/>
+    <poi id="298236181.82.84" type="right before left" color="255,153,0" x="2686.45" y="1259.59" angle="0"/>
+    <poi id="298236182.87.78" type="right before left" color="255,153,0" x="2676.10" y="1345.25" angle="0"/>
+    <poi id="298236183.79.80" type="right before left" color="255,153,0" x="2623.94" y="1266.16" angle="0"/>
+    <poi id="298236184.2.96" type="right before left" color="255,153,0" x="2648.00" y="1267.08" angle="0"/>
+    <poi id="298236185#0.82.39" type="right before left" color="255,153,0" x="2654.43" y="1273.15" angle="0"/>
+    <poi id="298236185#1.0.00" type="right before left" color="255,153,0" x="2654.18" y="1260.75" angle="0"/>
+    <poi id="298236186#0.0.00" type="right before left" color="255,153,0" x="2641.49" y="1259.97" angle="0"/>
+    <poi id="298236186#1.82.41" type="right before left" color="255,153,0" x="2642.27" y="1353.00" angle="0"/>
+    <poi id="298236187.57.10" type="right before left" color="255,153,0" x="2709.57" y="1250.59" angle="0"/>
+    <poi id="298236188#0.27.43" type="priority" color="yellow" x="2728.49" y="1302.01" angle="0"/>
+    <poi id="298236188#1.0.87" type="right before left" color="255,153,0" x="2714.12" y="1298.17" angle="0"/>
+    <poi id="299173858#0.31.05" type="priority" color="yellow" x="2740.67" y="1302.09" angle="0"/>
+    <poi id="299173858#1.3.30" type="yield" color="red" x="2751.95" y="1301.88" angle="0"/>
+    <poi id="299173859#0.5.55" type="right before left" color="255,153,0" x="2663.31" y="1257.15" angle="0"/>
+    <poi id="299173859#1.3.08" type="right before left" color="255,153,0" x="2647.89" y="1258.76" angle="0"/>
+    <poi id="299173859#2.2.42" type="right before left" color="255,153,0" x="2633.13" y="1260.31" angle="0"/>
+    <poi id="299173862#0.44.25" type="priority" color="yellow" x="2608.45" y="1296.93" angle="0"/>
+    <poi id="299173862#1.52.67" type="right before left" color="255,153,0" x="2620.31" y="1348.14" angle="0"/>
+    <poi id="299173862#2.4.48" type="right before left" color="255,153,0" x="2632.97" y="1356.55" angle="0"/>
+    <poi id="299173862#3.10.42" type="right before left" color="255,153,0" x="2653.66" y="1361.82" angle="0"/>
+    <poi id="299173862#4.5.81" type="right before left" color="255,153,0" x="2668.14" y="1355.78" angle="0"/>
+    <poi id="299173862#5.2.30" type="right before left" color="255,153,0" x="2682.16" y="1349.93" angle="0"/>
+    <poi id="299173862#6.46.25" type="right before left" color="255,153,0" x="2704.62" y="1302.36" angle="0"/>
+    <poi id="299173863.2.18" type="right before left" color="255,153,0" x="2713.38" y="1294.23" angle="0"/>
+    <poi id="309001817#0.1.01" type="priority" color="yellow" x="2660.31" y="1007.09" angle="0"/>
+    <poi id="309001817#1.0.00" type="yield" color="red" x="2661.54" y="1000.06" angle="0"/>
+    <poi id="310012464.0.00" type="yield" color="red" x="2602.47" y="1296.51" angle="0"/>
+    <poi id="310012465#0.7.70" type="yield" color="red" x="2674.43" y="1229.37" angle="0"/>
+    <poi id="310012465#1.6.67" type="yield" color="red" x="2675.55" y="1245.11" angle="0"/>
+    <poi id="310292413#0.34.18" type="right before left" color="255,153,0" x="3046.05" y="1509.33" angle="0"/>
+    <poi id="310292413#2.21.92" type="priority" color="yellow" x="3084.32" y="1508.24" angle="0"/>
+    <poi id="310292413#3.46.83" type="right before left" color="255,153,0" x="3137.68" y="1500.66" angle="0"/>
+    <poi id="310292416#0.65.58" type="priority" color="yellow" x="2937.69" y="1530.83" angle="0"/>
+    <poi id="310292416#1.63.40" type="right before left" color="255,153,0" x="2869.66" y="1540.65" angle="0"/>
+    <poi id="310292416#2.70.49" type="right before left" color="255,153,0" x="2790.30" y="1546.00" angle="0"/>
+    <poi id="310292416#3.6.32" type="yield" color="red" x="2774.12" y="1544.31" angle="0"/>
+    <poi id="310292423.34.97" type="priority" color="yellow" x="2366.11" y="1362.79" angle="0"/>
+    <poi id="310292426#2.12.55" type="yield" color="red" x="2525.14" y="1140.44" angle="0"/>
+    <poi id="310292427#1.24.60" type="priority" color="yellow" x="2314.35" y="1377.53" angle="0"/>
+    <poi id="310292427#16.69.25" type="yield" color="red" x="2261.16" y="719.99" angle="0"/>
+    <poi id="321570625#2.0.00" type="yield" color="red" x="2286.90" y="891.99" angle="0"/>
+    <poi id="330604294#0.2.33" type="yield" color="red" x="2658.09" y="900.99" angle="0"/>
+    <poi id="331021979.15.90" type="right before left" color="255,153,0" x="3023.00" y="1170.36" angle="0"/>
+    <poi id="333727834#0.572.14" type="priority" color="yellow" x="3123.59" y="1168.80" angle="0"/>
+    <poi id="333727834#1.101.38" type="right before left" color="255,153,0" x="3137.62" y="1279.16" angle="0"/>
+    <poi id="333727835#1.2.10" type="yield" color="red" x="3065.00" y="599.45" angle="0"/>
+    <poi id="333727835#2.0.00" type="priority" color="yellow" x="3049.75" y="603.25" angle="0"/>
+    <poi id="333727835#3.0.00" type="right before left" color="255,153,0" x="3037.83" y="604.98" angle="0"/>
+    <poi id="333727835#4.134.07" type="yield" color="red" x="2900.88" y="621.99" angle="0"/>
+    <poi id="333727835#5.152.89" type="yield" color="red" x="2737.83" y="645.68" angle="0"/>
+    <poi id="333727835#7.93.21" type="yield" color="red" x="2604.04" y="665.92" angle="0"/>
+    <poi id="350484353#0.60.68" type="yield" color="red" x="2748.69" y="1299.04" angle="0"/>
+    <poi id="350484353#1.84.59" type="yield" color="red" x="2761.65" y="1392.05" angle="0"/>
+    <poi id="350484353#11.0.00" type="yield" color="red" x="2174.38" y="1394.00" angle="0"/>
+    <poi id="350484353#3.119.65" type="yield" color="red" x="2644.18" y="1486.62" angle="0"/>
+    <poi id="350484353#4.29.86" type="yield" color="red" x="2600.17" y="1491.80" angle="0"/>
+    <poi id="350484353#5.28.37" type="yield" color="red" x="2554.75" y="1497.29" angle="0"/>
+    <poi id="350484353#6.88.05" type="yield" color="red" x="2455.05" y="1509.51" angle="0"/>
+    <poi id="350484353#8.121.22" type="yield" color="red" x="2228.08" y="1531.54" angle="0"/>
+    <poi id="350484353#9.123.65" type="yield" color="red" x="2168.11" y="1444.12" angle="0"/>
+    <poi id="35177164#1.40.38" type="yield" color="red" x="3261.84" y="1481.75" angle="0"/>
+    <poi id="35177165#0.50.14" type="right before left" color="255,153,0" x="2129.40" y="1453.17" angle="0"/>
+    <poi id="35177165#1.28.97" type="right before left" color="255,153,0" x="2135.29" y="1494.15" angle="0"/>
+    <poi id="35177165#2.45.47" type="right before left" color="255,153,0" x="2110.45" y="1477.45" angle="0"/>
+    <poi id="35177166#0.6.85" type="right before left" color="255,153,0" x="2121.21" y="1460.67" angle="0"/>
+    <poi id="35177166#1.0.87" type="right before left" color="255,153,0" x="2134.40" y="1458.87" angle="0"/>
+    <poi id="35177167.53.01" type="right before left" color="255,153,0" x="2141.43" y="1464.14" angle="0"/>
+    <poi id="35177168#0.0.00" type="right before left" color="255,153,0" x="2079.51" y="1284.44" angle="0"/>
+    <poi id="35177168#1.6.28" type="priority" color="yellow" x="2096.47" y="1282.20" angle="0"/>
+    <poi id="36379081.83.84" type="yield" color="red" x="2977.20" y="1700.81" angle="0"/>
+    <poi id="36379083#0.3.12" type="priority" color="yellow" x="2971.35" y="1640.01" angle="0"/>
+    <poi id="36379083#1.6.02" type="yield" color="red" x="2973.70" y="1658.37" angle="0"/>
+    <poi id="36379088#0.33.66" type="right before left" color="255,153,0" x="3020.47" y="1624.27" angle="0"/>
+    <poi id="36379088#1.39.88" type="right before left" color="255,153,0" x="3012.90" y="1572.38" angle="0"/>
+    <poi id="36379088#2.12.79" type="right before left" color="255,153,0" x="3009.51" y="1547.29" angle="0"/>
+    <poi id="36379088#3.2.77" type="yield" color="red" x="3009.27" y="1531.11" angle="0"/>
+    <poi id="36379089#0.36.04" type="right before left" color="255,153,0" x="3050.70" y="1465.13" angle="0"/>
+    <poi id="36379089#1.0.00" type="yield" color="red" x="3048.70" y="1452.54" angle="0"/>
+    <poi id="36379089#2.33.30" type="right before left" color="255,153,0" x="3087.03" y="1438.19" angle="0"/>
+    <poi id="36379093.48.22" type="priority" color="yellow" x="3062.90" y="1530.11" angle="0"/>
+    <poi id="36379095.63.41" type="right before left" color="255,153,0" x="3018.20" y="1565.38" angle="0"/>
+    <poi id="36379097#0.0.00" type="priority" color="yellow" x="3135.80" y="1640.68" angle="0"/>
+    <poi id="36379097#1.7.54" type="priority" color="yellow" x="3132.56" y="1618.38" angle="0"/>
+    <poi id="36379098.54.55" type="priority" color="yellow" x="3074.86" y="1633.64" angle="0"/>
+    <poi id="36379100#0.3.31" type="priority" color="yellow" x="3133.16" y="1602.76" angle="0"/>
+    <poi id="36379101#0.0.00" type="right before left" color="255,153,0" x="3135.14" y="1592.98" angle="0"/>
+    <poi id="36667189#0.1.68" type="priority" color="yellow" x="2738.09" y="1120.49" angle="0"/>
+    <poi id="36667189#1.20.93" type="priority" color="yellow" x="2766.77" y="1114.80" angle="0"/>
+    <poi id="36667189#2.1.70" type="right before left" color="255,153,0" x="2775.81" y="1112.31" angle="0"/>
+    <poi id="36667189#3.16.16" type="priority" color="yellow" x="2799.21" y="1105.70" angle="0"/>
+    <poi id="36667190#0.0.00" type="priority" color="yellow" x="2752.30" y="1214.54" angle="0"/>
+    <poi id="36667190#1.117.68" type="right before left" color="255,153,0" x="2869.04" y="1238.81" angle="0"/>
+    <poi id="36716325#1.0.00" type="right before left" color="255,153,0" x="3166.90" y="1528.52" angle="0"/>
+    <poi id="36716326.11.50" type="priority" color="yellow" x="3156.00" y="1512.21" angle="0"/>
+    <poi id="36716327.3.61" type="yield" color="red" x="3151.28" y="1504.09" angle="0"/>
+    <poi id="36716331#0.66.66" type="yield" color="red" x="2963.09" y="1647.57" angle="0"/>
+    <poi id="36716332#0.67.23" type="yield" color="red" x="2961.13" y="1632.06" angle="0"/>
+    <poi id="372147138.2.02" type="yield" color="red" x="3199.13" y="1296.30" angle="0"/>
+    <poi id="372147140#1.9.10" type="yield" color="red" x="3190.48" y="1288.95" angle="0"/>
+    <poi id="382975033.15.60" type="yield" color="red" x="2890.46" y="1318.24" angle="0"/>
+    <poi id="389642098#0.22.63" type="priority" color="yellow" x="3099.18" y="577.12" angle="0"/>
+    <poi id="389642098#1.106.26" type="priority" color="yellow" x="3314.54" y="547.96" angle="0"/>
+    <poi id="389642103.22.42" type="priority" color="yellow" x="3061.97" y="526.76" angle="0"/>
+    <poi id="392529308#0.21.90" type="yield" color="red" x="2669.05" y="1005.45" angle="0"/>
+    <poi id="39516474#0.366.46" type="priority" color="yellow" x="2328.94" y="419.00" angle="0"/>
+    <poi id="39516474#1.1.34" type="yield" color="red" x="2319.37" y="426.30" angle="0"/>
+    <poi id="39516474#2.134.25" type="priority" color="yellow" x="2201.61" y="516.89" angle="0"/>
+    <poi id="39516501.70.64" type="yield" color="red" x="1779.18" y="751.79" angle="0"/>
+    <poi id="400152666.6.80" type="priority" color="yellow" x="3251.35" y="1346.06" angle="0"/>
+    <poi id="400152667.39.24" type="yield" color="red" x="3243.36" y="1350.46" angle="0"/>
+    <poi id="401146000#4.27.09" type="yield" color="red" x="2771.07" y="1260.33" angle="0"/>
+    <poi id="403774582#0.68.66" type="priority" color="yellow" x="2666.15" y="1233.37" angle="0"/>
+    <poi id="403774582#1.45.35" type="priority" color="yellow" x="2718.78" y="1226.32" angle="0"/>
+    <poi id="403774582#2.2.46" type="priority" color="yellow" x="2729.76" y="1224.75" angle="0"/>
+    <poi id="403838198#0.56.92" type="right before left" color="255,153,0" x="3243.21" y="637.88" angle="0"/>
+    <poi id="403838198#1.3.59" type="right before left" color="255,153,0" x="3264.17" y="634.11" angle="0"/>
+    <poi id="403838198#2.6.34" type="right before left" color="255,153,0" x="3282.62" y="630.79" angle="0"/>
+    <poi id="403838198#3.5.31" type="right before left" color="255,153,0" x="3300.07" y="627.66" angle="0"/>
+    <poi id="403838198#4.8.78" type="right before left" color="255,153,0" x="3320.47" y="622.76" angle="0"/>
+    <poi id="403838198#5.0.00" type="right before left" color="255,153,0" x="3328.33" y="615.70" angle="0"/>
+    <poi id="403838199.75.99" type="right before left" color="255,153,0" x="3166.70" y="620.80" angle="0"/>
+    <poi id="403838202.42.82" type="right before left" color="255,153,0" x="3290.15" y="638.80" angle="0"/>
+    <poi id="403838203#0.0.00" type="right before left" color="255,153,0" x="3226.76" y="635.42" angle="0"/>
+    <poi id="403838203#1.13.88" type="right before left" color="255,153,0" x="3223.95" y="612.81" angle="0"/>
+    <poi id="403838204.75.76" type="right before left" color="255,153,0" x="3148.51" y="623.30" angle="0"/>
+    <poi id="403838206.41.95" type="right before left" color="255,153,0" x="3271.77" y="642.07" angle="0"/>
+    <poi id="403838207.47.90" type="right before left" color="255,153,0" x="3328.11" y="629.07" angle="0"/>
+    <poi id="403838211.45.44" type="right before left" color="255,153,0" x="3238.44" y="685.37" angle="0"/>
+    <poi id="403838212.41.10" type="right before left" color="255,153,0" x="3256.02" y="644.91" angle="0"/>
+    <poi id="403838216.76.25" type="right before left" color="255,153,0" x="3185.54" y="618.20" angle="0"/>
+    <poi id="403838217.43.86" type="right before left" color="255,153,0" x="3307.63" y="635.64" angle="0"/>
+    <poi id="403838219.75.51" type="right before left" color="255,153,0" x="3131.81" y="625.62" angle="0"/>
+    <poi id="403838220#0.188.45" type="right before left" color="255,153,0" x="3229.19" y="605.74" angle="0"/>
+    <poi id="403838220#1.8.67" type="right before left" color="255,153,0" x="3214.46" y="607.79" angle="0"/>
+    <poi id="403838220#10.4.46" type="right before left" color="255,153,0" x="3188.55" y="698.01" angle="0"/>
+    <poi id="403838220#11.7.77" type="right before left" color="255,153,0" x="3208.56" y="695.52" angle="0"/>
+    <poi id="403838220#12.9.49" type="right before left" color="255,153,0" x="3230.29" y="692.83" angle="0"/>
+    <poi id="403838220#13.2.54" type="right before left" color="255,153,0" x="3245.10" y="691.08" angle="0"/>
+    <poi id="403838220#14.1.12" type="right before left" color="255,153,0" x="3255.42" y="689.83" angle="0"/>
+    <poi id="403838220#15.3.61" type="right before left" color="255,153,0" x="3271.26" y="687.74" angle="0"/>
+    <poi id="403838220#16.5.53" type="right before left" color="255,153,0" x="3289.05" y="685.49" angle="0"/>
+    <poi id="403838220#17.5.65" type="right before left" color="255,153,0" x="3306.95" y="683.25" angle="0"/>
+    <poi id="403838220#18.9.27" type="right before left" color="255,153,0" x="3328.46" y="680.62" angle="0"/>
+    <poi id="403838220#19.80.87" type="right before left" color="255,153,0" x="3347.90" y="614.78" angle="0"/>
+    <poi id="403838220#2.8.48" type="right before left" color="255,153,0" x="3193.78" y="610.66" angle="0"/>
+    <poi id="403838220#3.6.74" type="right before left" color="255,153,0" x="3174.82" y="613.28" angle="0"/>
+    <poi id="403838220#4.5.92" type="right before left" color="255,153,0" x="3156.66" y="615.80" angle="0"/>
+    <poi id="403838220#5.4.49" type="right before left" color="255,153,0" x="3139.94" y="618.12" angle="0"/>
+    <poi id="403838220#6.11.03" type="right before left" color="255,153,0" x="3116.73" y="621.34" angle="0"/>
+    <poi id="403838220#7.101.20" type="right before left" color="255,153,0" x="3139.62" y="704.09" angle="0"/>
+    <poi id="403838220#8.3.99" type="right before left" color="255,153,0" x="3152.91" y="702.44" angle="0"/>
+    <poi id="403838220#9.6.65" type="right before left" color="255,153,0" x="3171.82" y="700.09" angle="0"/>
+    <poi id="403838222.76.49" type="right before left" color="255,153,0" x="3206.18" y="615.35" angle="0"/>
+    <poi id="403838225#0.2.75" type="yield" color="red" x="3327.81" y="557.59" angle="0"/>
+    <poi id="403838225#1.35.07" type="right before left" color="255,153,0" x="3331.13" y="600.87" angle="0"/>
+    <poi id="405414870#1.0.36" type="priority" color="yellow" x="2567.14" y="1357.50" angle="0"/>
+    <poi id="405414870#2.8.49" type="priority" color="yellow" x="2577.34" y="1338.40" angle="0"/>
+    <poi id="405414870#3.2.85" type="priority" color="yellow" x="2579.28" y="1324.76" angle="0"/>
+    <poi id="405414870#4.11.84" type="priority" color="yellow" x="2579.49" y="1300.64" angle="0"/>
+    <poi id="405414870#5.42.05" type="priority" color="yellow" x="2581.87" y="1251.22" angle="0"/>
+    <poi id="405455771#1.5.49" type="right before left" color="255,153,0" x="3155.61" y="1100.53" angle="0"/>
+    <poi id="415775174#0.7.98" type="priority" color="yellow" x="2154.51" y="1185.01" angle="0"/>
+    <poi id="415775174#1.0.00" type="priority" color="yellow" x="2161.50" y="1184.15" angle="0"/>
+    <poi id="415775175.58.18" type="yield" color="red" x="2299.55" y="887.04" angle="0"/>
+    <poi id="415775176#11.38.86" type="yield" color="red" x="2740.87" y="1220.46" angle="0"/>
+    <poi id="415775176#2.13.22" type="yield" color="red" x="2612.15" y="818.99" angle="0"/>
+    <poi id="415775176#5.81.00" type="yield" color="red" x="2679.49" y="982.11" angle="0"/>
+    <poi id="4361216.148.59" type="yield" color="red" x="2129.35" y="1784.59" angle="0"/>
+    <poi id="4361218.177.85" type="yield" color="red" x="1972.01" y="1728.14" angle="0"/>
+    <poi id="4361219.180.81" type="yield" color="red" x="1958.49" y="1627.28" angle="0"/>
+    <poi id="4361220#0.34.44" type="priority" color="yellow" x="1779.14" y="1722.84" angle="0"/>
+    <poi id="4361220#1.41.02" type="priority" color="yellow" x="1771.79" y="1661.30" angle="0"/>
+    <poi id="4361220#2.42.83" type="yield" color="red" x="1763.98" y="1601.68" angle="0"/>
+    <poi id="4361221#0.63.08" type="priority" color="yellow" x="1614.03" y="1608.23" angle="0"/>
+    <poi id="4361221#1.8.48" type="priority" color="yellow" x="1639.71" y="1605.00" angle="0"/>
+    <poi id="4361221#2.78.83" type="priority" color="yellow" x="1735.23" y="1593.47" angle="0"/>
+    <poi id="4361221#4.61.16" type="priority" color="yellow" x="1831.73" y="1581.56" angle="0"/>
+    <poi id="4361221#5.80.96" type="priority" color="yellow" x="1929.38" y="1569.88" angle="0"/>
+    <poi id="4394494#0.109.96" type="priority" color="yellow" x="2649.81" y="1709.99" angle="0"/>
+    <poi id="4394494#1.7.37" type="priority" color="yellow" x="2634.55" y="1711.86" angle="0"/>
+    <poi id="4394494#2.39.61" type="priority" color="yellow" x="2582.91" y="1718.15" angle="0"/>
+    <poi id="4394494#3.3.32" type="priority" color="yellow" x="2567.28" y="1720.05" angle="0"/>
+    <poi id="4394494#4.191.34" type="priority" color="yellow" x="2365.03" y="1744.65" angle="0"/>
+    <poi id="4394494#5.22.77" type="priority" color="yellow" x="2330.11" y="1748.86" angle="0"/>
+    <poi id="4394494#6.85.11" type="priority" color="yellow" x="2228.47" y="1762.38" angle="0"/>
+    <poi id="4394494#7.76.70" type="priority" color="yellow" x="2140.16" y="1774.25" angle="0"/>
+    <poi id="4394494#8.117.12" type="priority" color="yellow" x="2006.39" y="1792.22" angle="0"/>
+    <poi id="4394494#9.0.00" type="yield" color="red" x="1998.22" y="1793.32" angle="0"/>
+    <poi id="44341853.0.00" type="yield" color="red" x="1737.61" y="917.10" angle="0"/>
+    <poi id="44343328#0.8.69" type="right before left" color="255,153,0" x="1720.54" y="864.65" angle="0"/>
+    <poi id="44343328#1.20.66" type="right before left" color="255,153,0" x="1699.15" y="839.82" angle="0"/>
+    <poi id="44343328#2.2.31" type="right before left" color="255,153,0" x="1694.47" y="829.02" angle="0"/>
+    <poi id="44343328#3.0.00" type="yield" color="red" x="1692.25" y="819.18" angle="0"/>
+    <poi id="44343328#4.0.00" type="yield" color="red" x="1691.32" y="814.01" angle="0"/>
+    <poi id="44344723#8.0.53" type="yield" color="red" x="1856.53" y="779.53" angle="0"/>
+    <poi id="44347104#0.35.66" type="right before left" color="255,153,0" x="1748.51" y="832.62" angle="0"/>
+    <poi id="44347104#1.5.35" type="yield" color="red" x="1761.53" y="840.29" angle="0"/>
+    <poi id="44347151#0.12.94" type="right before left" color="255,153,0" x="1751.94" y="820.82" angle="0"/>
+    <poi id="44347151#1.19.07" type="priority" color="yellow" x="1718.22" y="821.67" angle="0"/>
+    <poi id="44347219.13.88" type="right before left" color="255,153,0" x="1750.18" y="816.69" angle="0"/>
+    <poi id="44347869.98.07" type="yield" color="red" x="1790.34" y="809.05" angle="0"/>
+    <poi id="44347884#1.8.23" type="right before left" color="255,153,0" x="1702.30" y="823.92" angle="0"/>
+    <poi id="44347925.15.97" type="yield" color="red" x="1709.88" y="822.74" angle="0"/>
+    <poi id="44347939#0.7.63" type="priority" color="yellow" x="1814.77" y="820.51" angle="0"/>
+    <poi id="44347939#1.0.00" type="yield" color="red" x="1808.22" y="825.90" angle="0"/>
+    <poi id="44347939#3.75.86" type="priority" color="yellow" x="1730.91" y="886.66" angle="0"/>
+    <poi id="44347939#4.185.22" type="priority" color="yellow" x="1570.38" y="1011.67" angle="0"/>
+    <poi id="44347943#0.0.57" type="yield" color="red" x="1939.54" y="713.36" angle="0"/>
+    <poi id="44347943#1.3.57" type="yield" color="red" x="1931.87" y="701.21" angle="0"/>
+    <poi id="44347978.54.26" type="yield" color="red" x="1834.67" y="861.64" angle="0"/>
+    <poi id="44347984#0.286.92" type="priority" color="yellow" x="2325.17" y="456.24" angle="0"/>
+    <poi id="44348008#0.81.00" type="yield" color="red" x="1809.12" y="863.75" angle="0"/>
+    <poi id="44348008#1.33.10" type="yield" color="red" x="1809.10" y="833.48" angle="0"/>
+    <poi id="44348009.0.00" type="yield" color="red" x="1878.35" y="823.81" angle="0"/>
+    <poi id="44348011.24.05" type="priority" color="yellow" x="1935.67" y="793.48" angle="0"/>
+    <poi id="44348023#0.44.03" type="priority" color="yellow" x="2120.33" y="715.65" angle="0"/>
+    <poi id="44348024#1.18.55" type="priority" color="yellow" x="2314.84" y="692.37" angle="0"/>
+    <poi id="44348034#0.3.62" type="priority" color="yellow" x="2295.46" y="713.73" angle="0"/>
+    <poi id="44348034#1.18.78" type="yield" color="red" x="2312.51" y="692.59" angle="0"/>
+    <poi id="44348040#2.2.87" type="yield" color="red" x="2285.68" y="659.96" angle="0"/>
+    <poi id="44348045#1.0.00" type="yield" color="red" x="2088.19" y="667.41" angle="0"/>
+    <poi id="44348051.214.17" type="yield" color="red" x="2258.35" y="532.07" angle="0"/>
+    <poi id="44348551#1.0.00" type="yield" color="red" x="2286.81" y="708.33" angle="0"/>
+    <poi id="44348584.70.23" type="yield" color="red" x="2439.52" y="656.86" angle="0"/>
+    <poi id="44348588#0.21.01" type="priority" color="yellow" x="2557.65" y="669.26" angle="0"/>
+    <poi id="44348588#1.4.31" type="yield" color="red" x="2571.19" y="676.83" angle="0"/>
+    <poi id="446272702.210.72" type="right before left" color="255,153,0" x="2962.95" y="1307.64" angle="0"/>
+    <poi id="446272709.12.30" type="right before left" color="255,153,0" x="2795.12" y="996.09" angle="0"/>
+    <poi id="446272714.0.00" type="yield" color="red" x="2782.43" y="944.92" angle="0"/>
+    <poi id="446272721.38.68" type="right before left" color="255,153,0" x="3041.41" y="1201.61" angle="0"/>
+    <poi id="446272723#0.31.84" type="priority" color="yellow" x="3064.36" y="1167.18" angle="0"/>
+    <poi id="4500384#0.55.73" type="priority" color="yellow" x="1791.62" y="796.99" angle="0"/>
+    <poi id="4500384#1.16.25" type="priority" color="yellow" x="1805.02" y="818.12" angle="0"/>
+    <poi id="45399743#0.484.09" type="priority" color="yellow" x="1990.34" y="1803.24" angle="0"/>
+    <poi id="45399743#1.47.82" type="priority" color="yellow" x="1981.90" y="1738.57" angle="0"/>
+    <poi id="45399743#2.19.03" type="priority" color="yellow" x="1977.19" y="1702.45" angle="0"/>
+    <poi id="45399743#3.52.72" type="priority" color="yellow" x="1968.74" y="1637.71" angle="0"/>
+    <poi id="45399743#4.43.03" type="priority" color="yellow" x="1960.93" y="1577.79" angle="0"/>
+    <poi id="45606689#2.33.61" type="priority" color="yellow" x="2132.43" y="1186.44" angle="0"/>
+    <poi id="45606689#3.0.61" type="yield" color="red" x="2140.71" y="1182.75" angle="0"/>
+    <poi id="45606689#4.44.01" type="yield" color="red" x="2135.76" y="1126.54" angle="0"/>
+    <poi id="45606689#6.0.46" type="yield" color="red" x="2168.93" y="915.56" angle="0"/>
+    <poi id="45606690#0.0.00" type="priority" color="yellow" x="2163.96" y="1178.22" angle="0"/>
+    <poi id="45606690#1.8.40" type="priority" color="yellow" x="2149.00" y="1175.24" angle="0"/>
+    <poi id="45606691#1.13.81" type="priority" color="yellow" x="2162.96" y="1146.76" angle="0"/>
+    <poi id="4577071#0.3.14" type="yield" color="red" x="2734.57" y="1088.32" angle="0"/>
+    <poi id="4577072#0.109.79" type="priority" color="yellow" x="2567.11" y="1232.82" angle="0"/>
+    <poi id="4577072#1.12.10" type="priority" color="yellow" x="2582.11" y="1239.38" angle="0"/>
+    <poi id="4577073#0.3.29" type="priority" color="yellow" x="2036.17" y="985.81" angle="0"/>
+    <poi id="4577073#1.121.07" type="priority" color="yellow" x="2051.28" y="1114.33" angle="0"/>
+    <poi id="4577073#2.75.74" type="priority" color="yellow" x="2063.20" y="1206.67" angle="0"/>
+    <poi id="4577073#3.47.04" type="priority" color="yellow" x="2070.35" y="1261.35" angle="0"/>
+    <poi id="4577073#6.99.28" type="priority" color="yellow" x="2088.60" y="1392.03" angle="0"/>
+    <poi id="4577074.171.01" type="priority" color="yellow" x="2565.08" y="1369.74" angle="0"/>
+    <poi id="4577075#1.60.26" type="priority" color="yellow" x="2091.02" y="926.19" angle="0"/>
+    <poi id="4577076#0.73.28" type="priority" color="yellow" x="2775.56" y="1606.94" angle="0"/>
+    <poi id="4577076#2.50.04" type="priority" color="yellow" x="2762.52" y="1548.82" angle="0"/>
+    <poi id="4577076#3.25.78" type="priority" color="yellow" x="2757.65" y="1514.70" angle="0"/>
+    <poi id="4577077#0.27.88" type="priority" color="yellow" x="2600.67" y="716.53" angle="0"/>
+    <poi id="4577077#1.16.82" type="priority" color="yellow" x="2587.27" y="674.84" angle="0"/>
+    <poi id="4577077#2.0.09" type="yield" color="red" x="2583.43" y="666.97" angle="0"/>
+    <poi id="4577078#0.8.69" type="priority" color="yellow" x="2738.83" y="729.61" angle="0"/>
+    <poi id="4577078#1.0.65" type="priority" color="yellow" x="2736.31" y="716.79" angle="0"/>
+    <poi id="4577078#2.2.46" type="priority" color="yellow" x="2733.44" y="702.20" angle="0"/>
+    <poi id="4577078#3.5.44" type="priority" color="yellow" x="2729.99" y="684.70" angle="0"/>
+    <poi id="4577078#4.18.20" type="yield" color="red" x="2726.72" y="653.75" angle="0"/>
+    <poi id="4577079#1.0.00" type="priority" color="yellow" x="3168.73" y="1282.05" angle="0"/>
+    <poi id="4577079#2.12.95" type="priority" color="yellow" x="3186.82" y="1280.06" angle="0"/>
+    <poi id="4577079#3.2.36" type="priority" color="yellow" x="3197.12" y="1278.92" angle="0"/>
+    <poi id="4577079#4.19.16" type="priority" color="yellow" x="3228.55" y="1275.69" angle="0"/>
+    <poi id="4577079#6.9.31" type="priority" color="yellow" x="3257.95" y="1272.24" angle="0"/>
+    <poi id="4577079#7.0.55" type="priority" color="yellow" x="3275.72" y="1269.99" angle="0"/>
+    <poi id="4577079#8.31.47" type="priority" color="yellow" x="3319.18" y="1264.03" angle="0"/>
+    <poi id="45802407#0.17.85" type="right before left" color="255,153,0" x="3101.95" y="1675.42" angle="0"/>
+    <poi id="45802407#1.61.67" type="right before left" color="255,153,0" x="3158.93" y="1680.84" angle="0"/>
+    <poi id="45802411#0.52.61" type="right before left" color="255,153,0" x="3158.14" y="1676.20" angle="0"/>
+    <poi id="45802411#1.0.48" type="right before left" color="255,153,0" x="3165.79" y="1683.90" angle="0"/>
+    <poi id="45802411#2.17.75" type="right before left" color="255,153,0" x="3172.38" y="1715.60" angle="0"/>
+    <poi id="45802413#0.11.33" type="right before left" color="255,153,0" x="3185.73" y="1713.17" angle="0"/>
+    <poi id="45802413#1.14.39" type="right before left" color="255,153,0" x="3176.75" y="1697.65" angle="0"/>
+    <poi id="45802428#0.22.33" type="right before left" color="255,153,0" x="3267.24" y="1385.19" angle="0"/>
+    <poi id="45802428#1.24.76" type="right before left" color="255,153,0" x="3230.37" y="1389.81" angle="0"/>
+    <poi id="45802428#2.6.41" type="priority" color="yellow" x="3211.71" y="1392.15" angle="0"/>
+    <poi id="45802428#3.23.69" type="priority" color="yellow" x="3208.97" y="1419.71" angle="0"/>
+    <poi id="45802434#0.0.00" type="right before left" color="255,153,0" x="3261.38" y="1389.35" angle="0"/>
+    <poi id="45802434#1.4.47" type="right before left" color="255,153,0" x="3263.09" y="1406.05" angle="0"/>
+    <poi id="45897352#1.48.51" type="priority" color="yellow" x="2143.40" y="1338.54" angle="0"/>
+    <poi id="45897352#2.52.97" type="priority" color="yellow" x="2134.49" y="1273.80" angle="0"/>
+    <poi id="45897403#0.56.19" type="priority" color="yellow" x="2212.29" y="1546.27" angle="0"/>
+    <poi id="45897403#1.82.09" type="priority" color="yellow" x="2311.18" y="1534.38" angle="0"/>
+    <poi id="45897403#2.118.96" type="priority" color="yellow" x="2441.52" y="1518.39" angle="0"/>
+    <poi id="45897403#3.87.38" type="priority" color="yellow" x="2540.27" y="1505.83" angle="0"/>
+    <poi id="45897403#4.28.34" type="priority" color="yellow" x="2580.73" y="1500.75" angle="0"/>
+    <poi id="45897403#5.108.28" type="priority" color="yellow" x="2704.46" y="1500.82" angle="0"/>
+    <poi id="45897636#0.2.71" type="right before left" color="255,153,0" x="2091.98" y="997.15" angle="0"/>
+    <poi id="45897636#1.62.99" type="right before left" color="255,153,0" x="2084.03" y="1029.43" angle="0"/>
+    <poi id="45897636#2.39.46" type="priority" color="yellow" x="2098.90" y="999.51" angle="0"/>
+    <poi id="45897637.21.18" type="right before left" color="255,153,0" x="2089.17" y="1022.32" angle="0"/>
+    <poi id="45897672#0.0.58" type="yield" color="red" x="2494.09" y="785.13" angle="0"/>
+    <poi id="45897672#1.18.39" type="priority" color="yellow" x="2530.85" y="778.34" angle="0"/>
+    <poi id="45897672#2.21.61" type="priority" color="yellow" x="2564.12" y="773.51" angle="0"/>
+    <poi id="45897672#3.0.00" type="yield" color="red" x="2587.46" y="770.41" angle="0"/>
+    <poi id="45897759#0.94.83" type="priority" color="yellow" x="2292.21" y="900.11" angle="0"/>
+    <poi id="45897759#1.1.23" type="priority" color="yellow" x="2290.80" y="890.67" angle="0"/>
+    <poi id="45984545#0.0.00" type="yield" color="red" x="2611.29" y="1006.29" angle="0"/>
+    <poi id="46129025#0.0.00" type="priority" color="yellow" x="1852.68" y="548.39" angle="0"/>
+    <poi id="46129025#1.0.00" type="priority" color="yellow" x="1851.68" y="534.33" angle="0"/>
+    <poi id="46129033.4.16" type="yield" color="red" x="2160.13" y="555.09" angle="0"/>
+    <poi id="46129038.0.00" type="yield" color="red" x="2350.28" y="651.01" angle="0"/>
+    <poi id="46129039.7.25" type="priority" color="yellow" x="2533.59" y="627.29" angle="0"/>
+    <poi id="46129051#0.49.57" type="right before left" color="255,153,0" x="2157.03" y="783.54" angle="0"/>
+    <poi id="46129053.4.37" type="yield" color="red" x="2149.24" y="781.02" angle="0"/>
+    <poi id="46129059#1.24.74" type="priority" color="yellow" x="2139.41" y="756.95" angle="0"/>
+    <poi id="46129059#2.3.56" type="priority" color="yellow" x="2141.73" y="772.91" angle="0"/>
+    <poi id="46129059#3.30.61" type="priority" color="yellow" x="2147.35" y="815.54" angle="0"/>
+    <poi id="46129060.22.15" type="yield" color="red" x="2021.52" y="963.84" angle="0"/>
+    <poi id="46129064#0.6.38" type="yield" color="red" x="2676.61" y="999.33" angle="0"/>
+    <poi id="46129064#1.0.00" type="yield" color="red" x="2667.64" y="1001.96" angle="0"/>
+    <poi id="46129065#0.48.58" type="right before left" color="255,153,0" x="2644.25" y="984.84" angle="0"/>
+    <poi id="46129066.1.95" type="yield" color="red" x="2660.73" y="988.32" angle="0"/>
+    <poi id="46129068#0.6.78" type="right before left" color="255,153,0" x="2660.96" y="1018.49" angle="0"/>
+    <poi id="46129074.64.85" type="right before left" color="255,153,0" x="2671.92" y="799.53" angle="0"/>
+    <poi id="46129075.62.80" type="right before left" color="255,153,0" x="2687.31" y="797.26" angle="0"/>
+    <poi id="46129076.60.79" type="right before left" color="255,153,0" x="2702.40" y="795.01" angle="0"/>
+    <poi id="46129077.58.75" type="right before left" color="255,153,0" x="2717.62" y="792.78" angle="0"/>
+    <poi id="46129078.35.43" type="right before left" color="255,153,0" x="2734.03" y="790.22" angle="0"/>
+    <poi id="46129079#0.80.19" type="right before left" color="255,153,0" x="2641.83" y="794.22" angle="0"/>
+    <poi id="46129079#1.2.66" type="right before left" color="255,153,0" x="2663.60" y="791.00" angle="0"/>
+    <poi id="46129079#2.3.09" type="right before left" color="255,153,0" x="2678.97" y="788.72" angle="0"/>
+    <poi id="46129079#3.2.82" type="right before left" color="255,153,0" x="2694.09" y="786.48" angle="0"/>
+    <poi id="46129079#4.2.90" type="right before left" color="255,153,0" x="2709.28" y="784.24" angle="0"/>
+    <poi id="46129079#5.4.31" type="right before left" color="255,153,0" x="2725.86" y="781.78" angle="0"/>
+    <poi id="46129079#6.3.99" type="yield" color="red" x="2742.07" y="779.32" angle="0"/>
+    <poi id="46129080.64.09" type="right before left" color="255,153,0" x="2656.95" y="801.74" angle="0"/>
+    <poi id="46129086#0.1.17" type="yield" color="red" x="2736.72" y="751.51" angle="0"/>
+    <poi id="46129086#1.2.30" type="yield" color="red" x="2718.50" y="756.21" angle="0"/>
+    <poi id="46129086#14.26.32" type="yield" color="red" x="2746.42" y="1112.91" angle="0"/>
+    <poi id="46129086#16.68.60" type="yield" color="red" x="2757.91" y="1206.92" angle="0"/>
+    <poi id="46129086#2.3.50" type="yield" color="red" x="2702.66" y="758.54" angle="0"/>
+    <poi id="46129086#3.2.80" type="yield" color="red" x="2687.50" y="760.68" angle="0"/>
+    <poi id="46129086#4.2.15" type="yield" color="red" x="2673.05" y="762.75" angle="0"/>
+    <poi id="46129086#5.2.98" type="yield" color="red" x="2657.76" y="765.03" angle="0"/>
+    <poi id="46129086#8.72.00" type="yield" color="red" x="2653.83" y="869.22" angle="0"/>
+    <poi id="46129090#0.11.98" type="priority" color="yellow" x="2694.27" y="762.48" angle="0"/>
+    <poi id="46129090#1.0.00" type="yield" color="red" x="2692.95" y="755.71" angle="0"/>
+    <poi id="46129090#2.57.54" type="right before left" color="255,153,0" x="2680.79" y="691.50" angle="0"/>
+    <poi id="46129091#0.11.75" type="priority" color="yellow" x="2710.04" y="760.17" angle="0"/>
+    <poi id="46129091#1.0.00" type="yield" color="red" x="2708.80" y="753.47" angle="0"/>
+    <poi id="46129091#2.57.32" type="right before left" color="255,153,0" x="2696.45" y="689.32" angle="0"/>
+    <poi id="46129092#0.11.94" type="priority" color="yellow" x="2724.56" y="757.99" angle="0"/>
+    <poi id="46129092#1.0.00" type="yield" color="red" x="2723.40" y="751.26" angle="0"/>
+    <poi id="46129092#2.57.13" type="right before left" color="255,153,0" x="2710.93" y="687.31" angle="0"/>
+    <poi id="46129097#0.12.08" type="priority" color="yellow" x="2664.66" y="766.72" angle="0"/>
+    <poi id="46129097#1.0.00" type="yield" color="red" x="2663.34" y="759.98" angle="0"/>
+    <poi id="46129097#2.57.90" type="right before left" color="255,153,0" x="2650.50" y="695.78" angle="0"/>
+    <poi id="46129098#0.12.00" type="priority" color="yellow" x="2679.00" y="764.55" angle="0"/>
+    <poi id="46129098#1.0.00" type="yield" color="red" x="2677.84" y="757.85" angle="0"/>
+    <poi id="46129098#2.57.72" type="right before left" color="255,153,0" x="2665.50" y="693.66" angle="0"/>
+    <poi id="46129102#0.9.36" type="yield" color="red" x="2650.02" y="771.85" angle="0"/>
+    <poi id="46129102#2.0.11" type="right before left" color="255,153,0" x="2646.53" y="755.07" angle="0"/>
+    <poi id="46129102#3.45.86" type="right before left" color="255,153,0" x="2635.14" y="697.92" angle="0"/>
+    <poi id="46129103#0.71.93" type="right before left" color="255,153,0" x="2616.25" y="692.10" angle="0"/>
+    <poi id="46129103#1.3.09" type="right before left" color="255,153,0" x="2642.69" y="687.41" angle="0"/>
+    <poi id="46129103#2.2.77" type="right before left" color="255,153,0" x="2657.72" y="685.32" angle="0"/>
+    <poi id="46129103#3.3.05" type="right before left" color="255,153,0" x="2673.03" y="683.18" angle="0"/>
+    <poi id="46129103#4.3.38" type="right before left" color="255,153,0" x="2688.67" y="680.99" angle="0"/>
+    <poi id="46129103#5.2.20" type="right before left" color="255,153,0" x="2703.13" y="678.97" angle="0"/>
+    <poi id="46129103#6.6.83" type="yield" color="red" x="2722.19" y="676.31" angle="0"/>
+    <poi id="46129103#7.121.01" type="right before left" color="255,153,0" x="2854.60" y="659.44" angle="0"/>
+    <poi id="46129110.47.72" type="right before left" color="255,153,0" x="2536.25" y="705.78" angle="0"/>
+    <poi id="46129113#0.4.46" type="right before left" color="255,153,0" x="2543.38" y="756.38" angle="0"/>
+    <poi id="46129113#1.86.06" type="right before left" color="255,153,0" x="2540.69" y="698.20" angle="0"/>
+    <poi id="46129118#0.0.00" type="right before left" color="255,153,0" x="2535.14" y="767.54" angle="0"/>
+    <poi id="46129139.1.65" type="yield" color="red" x="2566.12" y="1349.48" angle="0"/>
+    <poi id="46129141.42.37" type="priority" color="yellow" x="2564.74" y="1361.59" angle="0"/>
+    <poi id="46129150.11.26" type="yield" color="red" x="2575.48" y="1330.95" angle="0"/>
+    <poi id="46134996#0.22.30" type="priority" color="yellow" x="2888.42" y="653.28" angle="0"/>
+    <poi id="46134996#1.4.18" type="priority" color="yellow" x="2909.59" y="649.02" angle="0"/>
+    <poi id="46135022#1.0.00" type="yield" color="red" x="2933.12" y="719.13" angle="0"/>
+    <poi id="46135046.75.61" type="priority" color="yellow" x="2937.21" y="709.61" angle="0"/>
+    <poi id="46135048#0.19.72" type="priority" color="yellow" x="2892.84" y="626.27" angle="0"/>
+    <poi id="46135048#1.0.00" type="yield" color="red" x="2891.77" y="618.80" angle="0"/>
+    <poi id="46380812#0.5.94" type="right before left" color="255,153,0" x="2663.65" y="1431.57" angle="0"/>
+    <poi id="46380812#1.63.01" type="right before left" color="255,153,0" x="2635.60" y="1470.75" angle="0"/>
+    <poi id="46380815#0.25.63" type="right before left" color="255,153,0" x="2662.39" y="1466.33" angle="0"/>
+    <poi id="46380815#1.15.50" type="right before left" color="255,153,0" x="2663.79" y="1448.46" angle="0"/>
+    <poi id="46380818#0.24.26" type="right before left" color="255,153,0" x="2693.02" y="1435.30" angle="0"/>
+    <poi id="46380818#1.49.58" type="right before left" color="255,153,0" x="2680.93" y="1468.13" angle="0"/>
+    <poi id="46380826#0.0.07" type="priority" color="yellow" x="2764.77" y="1401.53" angle="0"/>
+    <poi id="46380826#1.112.28" type="right before left" color="255,153,0" x="2659.76" y="1425.91" angle="0"/>
+    <poi id="46380842#1.2.18" type="right before left" color="255,153,0" x="2632.28" y="1480.29" angle="0"/>
+    <poi id="46380862#1.4.19" type="right before left" color="255,153,0" x="2544.44" y="1488.76" angle="0"/>
+    <poi id="46380957#0.1.88" type="right before left" color="255,153,0" x="2864.57" y="666.32" angle="0"/>
+    <poi id="46380957#1.2.34" type="right before left" color="255,153,0" x="2866.30" y="680.83" angle="0"/>
+    <poi id="46380960.59.83" type="priority" color="yellow" x="2877.70" y="765.79" angle="0"/>
+    <poi id="46380966#0.36.49" type="right before left" color="255,153,0" x="2776.78" y="701.08" angle="0"/>
+    <poi id="46380966#1.1.50" type="right before left" color="255,153,0" x="2790.51" y="698.93" angle="0"/>
+    <poi id="46380966#2.1.54" type="right before left" color="255,153,0" x="2804.28" y="696.78" angle="0"/>
+    <poi id="46380966#3.4.81" type="right before left" color="255,153,0" x="2821.28" y="694.13" angle="0"/>
+    <poi id="46380966#4.5.14" type="right before left" color="255,153,0" x="2838.61" y="691.42" angle="0"/>
+    <poi id="46380966#5.7.20" type="right before left" color="255,153,0" x="2857.97" y="688.40" angle="0"/>
+    <poi id="46380967.119.63" type="right before left" color="255,153,0" x="2856.08" y="673.78" angle="0"/>
+    <poi id="46410619#1.14.28" type="yield" color="red" x="3086.92" y="1516.95" angle="0"/>
+    <poi id="46410620.16.29" type="yield" color="red" x="3072.83" y="1537.55" angle="0"/>
+    <poi id="46410622.52.23" type="right before left" color="255,153,0" x="2885.54" y="1572.29" angle="0"/>
+    <poi id="46410623#0.17.03" type="right before left" color="255,153,0" x="2931.77" y="1440.42" angle="0"/>
+    <poi id="46410623#1.113.47" type="right before left" color="255,153,0" x="2899.30" y="1336.35" angle="0"/>
+    <poi id="46410623#2.9.36" type="priority" color="yellow" x="2889.26" y="1326.10" angle="0"/>
+    <poi id="46410623#3.84.72" type="right before left" color="255,153,0" x="2805.77" y="1285.30" angle="0"/>
+    <poi id="46410623#4.27.25" type="priority" color="yellow" x="2773.80" y="1270.67" angle="0"/>
+    <poi id="46410630#0.16.38" type="priority" color="yellow" x="2984.76" y="1691.13" angle="0"/>
+    <poi id="46410631#0.47.38" type="yield" color="red" x="2800.56" y="1606.65" angle="0"/>
+    <poi id="46410631#1.11.47" type="yield" color="red" x="2787.19" y="1601.64" angle="0"/>
+    <poi id="46410632.51.70" type="priority" color="yellow" x="2836.93" y="1578.77" angle="0"/>
+    <poi id="46410633#0.81.15" type="yield" color="red" x="2780.11" y="1607.47" angle="0"/>
+    <poi id="46410633#2.40.14" type="yield" color="red" x="2766.77" y="1547.86" angle="0"/>
+    <poi id="46410633#4.194.54" type="yield" color="red" x="2766.63" y="1270.14" angle="0"/>
+    <poi id="46410634#0.55.92" type="right before left" color="255,153,0" x="2783.79" y="1530.49" angle="0"/>
+    <poi id="46410634#1.0.00" type="right before left" color="255,153,0" x="2785.22" y="1538.56" angle="0"/>
+    <poi id="46411639#0.0.00" type="yield" color="red" x="1983.11" y="1692.96" angle="0"/>
+    <poi id="46411639#1.9.48" type="right before left" color="255,153,0" x="2000.90" y="1694.37" angle="0"/>
+    <poi id="46411639#3.34.78" type="right before left" color="255,153,0" x="2051.86" y="1698.56" angle="0"/>
+    <poi id="47026445.43.00" type="yield" color="red" x="2016.60" y="980.33" angle="0"/>
+    <poi id="4707777.158.12" type="yield" color="red" x="2585.24" y="642.01" angle="0"/>
+    <poi id="4716134#0.196.64" type="priority" color="yellow" x="2326.09" y="1822.55" angle="0"/>
+    <poi id="4716134#1.53.23" type="yield" color="red" x="2319.54" y="1759.07" angle="0"/>
+    <poi id="47528871#1.0.00" type="priority" color="yellow" x="2219.46" y="1533.47" angle="0"/>
+    <poi id="47528873.41.67" type="right before left" color="255,153,0" x="2149.17" y="1742.80" angle="0"/>
+    <poi id="47528874.41.02" type="right before left" color="255,153,0" x="2057.33" y="1708.16" angle="0"/>
+    <poi id="47528879#0.17.21" type="right before left" color="255,153,0" x="2190.16" y="1685.10" angle="0"/>
+    <poi id="47528880#0.86.98" type="right before left" color="255,153,0" x="2049.83" y="1751.97" angle="0"/>
+    <poi id="47528880#1.62.85" type="right before left" color="255,153,0" x="2121.76" y="1753.01" angle="0"/>
+    <poi id="47528881#0.4.95" type="right before left" color="255,153,0" x="2127.95" y="1761.71" angle="0"/>
+    <poi id="47528881#1.0.00" type="right before left" color="255,153,0" x="2131.32" y="1750.78" angle="0"/>
+    <poi id="47528882#0.58.40" type="right before left" color="255,153,0" x="2361.92" y="1720.49" angle="0"/>
+    <poi id="47528882#1.121.75" type="right before left" color="255,153,0" x="2228.76" y="1736.74" angle="0"/>
+    <poi id="47528882#3.8.86" type="yield" color="red" x="2221.04" y="1754.18" angle="0"/>
+    <poi id="47528883#0.27.43" type="right before left" color="255,153,0" x="2186.64" y="1744.96" angle="0"/>
+    <poi id="47528883#1.21.07" type="right before left" color="255,153,0" x="2154.83" y="1748.92" angle="0"/>
+    <poi id="47528884#0.5.27" type="priority" color="yellow" x="2232.37" y="1698.11" angle="0"/>
+    <poi id="47528884#1.47.82" type="yield" color="red" x="2243.23" y="1682.79" angle="0"/>
+    <poi id="47528885#0.13.11" type="priority" color="yellow" x="2236.85" y="1685.23" angle="0"/>
+    <poi id="47528885#1.27.87" type="priority" color="yellow" x="2225.54" y="1695.32" angle="0"/>
+    <poi id="47528886#1.37.44" type="right before left" color="255,153,0" x="2203.77" y="1702.41" angle="0"/>
+    <poi id="47528886#2.2.15" type="yield" color="red" x="2215.66" y="1696.85" angle="0"/>
+    <poi id="47528886#3.23.93" type="right before left" color="255,153,0" x="2221.41" y="1728.21" angle="0"/>
+    <poi id="47528887.37.30" type="right before left" color="255,153,0" x="2515.92" y="1703.52" angle="0"/>
+    <poi id="47528892#1.15.43" type="right before left" color="255,153,0" x="2506.89" y="1703.74" angle="0"/>
+    <poi id="47528893#0.42.14" type="priority" color="yellow" x="2586.81" y="1655.28" angle="0"/>
+    <poi id="47528895.11.89" type="right before left" color="255,153,0" x="2353.70" y="1727.89" angle="0"/>
+    <poi id="47528896.84.36" type="right before left" color="255,153,0" x="2202.09" y="1585.99" angle="0"/>
+    <poi id="47528897#0.6.41" type="right before left" color="255,153,0" x="2374.16" y="1576.92" angle="0"/>
+    <poi id="47528897#1.23.23" type="right before left" color="255,153,0" x="2396.25" y="1604.29" angle="0"/>
+    <poi id="47528899.51.71" type="right before left" color="255,153,0" x="2380.99" y="1584.02" angle="0"/>
+    <poi id="47528900#0.64.41" type="right before left" color="255,153,0" x="2559.24" y="1703.21" angle="0"/>
+    <poi id="47528900#1.1.58" type="yield" color="red" x="2559.79" y="1711.67" angle="0"/>
+    <poi id="47528901#0.146.42" type="priority" color="yellow" x="2622.16" y="1632.25" angle="0"/>
+    <poi id="47528901#1.6.37" type="right before left" color="255,153,0" x="2636.30" y="1639.50" angle="0"/>
+    <poi id="47528903#0.24.46" type="right before left" color="255,153,0" x="2324.07" y="1563.60" angle="0"/>
+    <poi id="47528903#1.44.75" type="right before left" color="255,153,0" x="2325.45" y="1620.42" angle="0"/>
+    <poi id="47528909#1.14.26" type="right before left" color="255,153,0" x="2324.73" y="1631.57" angle="0"/>
+    <poi id="47528910#0.0.67" type="priority" color="yellow" x="2650.27" y="1601.13" angle="0"/>
+    <poi id="47528910#1.81.23" type="priority" color="yellow" x="2560.67" y="1592.02" angle="0"/>
+    <poi id="47528910#2.11.39" type="right before left" color="255,153,0" x="2541.14" y="1589.60" angle="0"/>
+    <poi id="47528911#0.22.34" type="priority" color="yellow" x="2520.46" y="1581.61" angle="0"/>
+    <poi id="47528911#1.16.19" type="right before left" color="255,153,0" x="2530.62" y="1588.25" angle="0"/>
+    <poi id="47528912#1.32.21" type="priority" color="yellow" x="2615.07" y="1577.94" angle="0"/>
+    <poi id="47528913#0.38.70" type="yield" color="red" x="2638.83" y="1557.06" angle="0"/>
+    <poi id="47528914.56.18" type="right before left" color="255,153,0" x="2460.29" y="1544.17" angle="0"/>
+    <poi id="47528916#0.8.42" type="right before left" color="255,153,0" x="2624.04" y="1698.39" angle="0"/>
+    <poi id="47528916#1.17.17" type="right before left" color="255,153,0" x="2628.14" y="1669.83" angle="0"/>
+    <poi id="47528916#2.0.00" type="priority" color="yellow" x="2634.10" y="1657.79" angle="0"/>
+    <poi id="47528916#3.1.03" type="right before left" color="255,153,0" x="2637.80" y="1650.48" angle="0"/>
+    <poi id="47528916#4.31.24" type="yield" color="red" x="2656.06" y="1610.91" angle="0"/>
+    <poi id="47528917.92.06" type="right before left" color="255,153,0" x="1999.43" y="1597.86" angle="0"/>
+    <poi id="47529116.12.84" type="yield" color="red" x="3075.36" y="1663.84" angle="0"/>
+    <poi id="47529117.0.00" type="yield" color="red" x="3195.84" y="1707.13" angle="0"/>
+    <poi id="47529118#0.38.09" type="right before left" color="255,153,0" x="3057.78" y="1736.14" angle="0"/>
+    <poi id="47529119#0.4.26" type="right before left" color="255,153,0" x="3050.34" y="1727.99" angle="0"/>
+    <poi id="47529119#1.5.16" type="right before left" color="255,153,0" x="3067.90" y="1725.64" angle="0"/>
+    <poi id="47529119#2.4.89" type="right before left" color="255,153,0" x="3085.06" y="1723.55" angle="0"/>
+    <poi id="47529120.38.05" type="right before left" color="255,153,0" x="3092.40" y="1731.83" angle="0"/>
+    <poi id="47529121.37.96" type="right before left" color="255,153,0" x="3075.24" y="1733.92" angle="0"/>
+    <poi id="47529122#0.42.22" type="right before left" color="255,153,0" x="3083.29" y="1682.08" angle="0"/>
+    <poi id="47529122#1.41.91" type="right before left" color="255,153,0" x="3078.12" y="1721.06" angle="0"/>
+    <poi id="4754396#0.0.00" type="yield" color="red" x="2998.93" y="571.72" angle="0"/>
+    <poi id="4754396#1.302.44" type="priority" color="yellow" x="2678.56" y="604.07" angle="0"/>
+    <poi id="4754396#10.7.08" type="priority" color="yellow" x="2293.66" y="655.71" angle="0"/>
+    <poi id="4754396#11.138.14" type="priority" color="yellow" x="2148.83" y="675.39" angle="0"/>
+    <poi id="4754396#12.39.02" type="yield" color="red" x="2098.17" y="680.06" angle="0"/>
+    <poi id="4754396#2.42.32" type="priority" color="yellow" x="2623.36" y="611.35" angle="0"/>
+    <poi id="4754396#3.72.59" type="priority" color="yellow" x="2534.14" y="623.13" angle="0"/>
+    <poi id="4754396#4.0.00" type="priority" color="yellow" x="2513.80" y="625.74" angle="0"/>
+    <poi id="4754396#5.77.18" type="priority" color="yellow" x="2423.77" y="637.72" angle="0"/>
+    <poi id="4754396#6.9.07" type="priority" color="yellow" x="2397.55" y="641.35" angle="0"/>
+    <poi id="4754396#7.28.21" type="priority" color="yellow" x="2357.33" y="646.93" angle="0"/>
+    <poi id="4754396#8.8.40" type="priority" color="yellow" x="2338.21" y="649.58" angle="0"/>
+    <poi id="4754396#9.8.08" type="priority" color="yellow" x="2317.92" y="652.39" angle="0"/>
+    <poi id="4754399#0.199.77" type="priority" color="yellow" x="2255.95" y="525.61" angle="0"/>
+    <poi id="4754399#1.51.48" type="priority" color="yellow" x="2310.18" y="484.87" angle="0"/>
+    <poi id="4754399#2.41.75" type="priority" color="yellow" x="2353.50" y="452.36" angle="0"/>
+    <poi id="4754399#3.91.74" type="priority" color="yellow" x="2440.34" y="386.30" angle="0"/>
+    <poi id="4754399#4.102.69" type="priority" color="yellow" x="2535.67" y="313.28" angle="0"/>
+    <poi id="4754403.238.87" type="priority" color="yellow" x="2453.38" y="389.08" angle="0"/>
+    <poi id="4754404.185.30" type="priority" color="yellow" x="2366.56" y="455.14" angle="0"/>
+    <poi id="4754405#0.120.01" type="priority" color="yellow" x="2271.72" y="533.67" angle="0"/>
+    <poi id="4754406#0.7.24" type="yield" color="red" x="2135.10" y="684.87" angle="0"/>
+    <poi id="4754406#1.0.00" type="yield" color="red" x="2124.18" y="695.50" angle="0"/>
+    <poi id="4754429#0.172.89" type="priority" color="yellow" x="1631.79" y="999.97" angle="0"/>
+    <poi id="4754429#1.111.27" type="yield" color="red" x="1731.82" y="924.01" angle="0"/>
+    <poi id="4754429#2.81.53" type="priority" color="yellow" x="1810.76" y="864.29" angle="0"/>
+    <poi id="4754429#3.54.35" type="priority" color="yellow" x="1869.84" y="822.62" angle="0"/>
+    <poi id="4754429#4.33.39" type="priority" color="yellow" x="1908.50" y="797.71" angle="0"/>
+    <poi id="4754443.91.32" type="yield" color="red" x="1841.66" y="635.42" angle="0"/>
+    <poi id="4754447.131.14" type="yield" color="red" x="1990.99" y="522.71" angle="0"/>
+    <poi id="4754448#0.94.82" type="priority" color="yellow" x="2177.50" y="419.74" angle="0"/>
+    <poi id="4754449.13.56" type="priority" color="yellow" x="2323.21" y="413.17" angle="0"/>
+    <poi id="4754485.195.22" type="yield" color="red" x="2166.44" y="413.63" angle="0"/>
+    <poi id="4754591#0.140.58" type="priority" color="yellow" x="3328.26" y="517.49" angle="0"/>
+    <poi id="4754591#1.40.12" type="priority" color="yellow" x="3276.26" y="524.49" angle="0"/>
+    <poi id="4754591#2.84.14" type="priority" color="yellow" x="3175.63" y="537.90" angle="0"/>
+    <poi id="4754591#3.50.50" type="yield" color="red" x="3110.19" y="553.32" angle="0"/>
+    <poi id="4754591#4.5.65" type="yield" color="red" x="3097.77" y="554.86" angle="0"/>
+    <poi id="47567647#2.15.52" type="yield" color="red" x="2782.55" y="1478.00" angle="0"/>
+    <poi id="47569235#1.39.12" type="yield" color="red" x="2559.82" y="1585.48" angle="0"/>
+    <poi id="47569242.10.49" type="yield" color="red" x="2607.81" y="1567.20" angle="0"/>
+    <poi id="47569243#0.112.80" type="yield" color="red" x="2643.52" y="1549.65" angle="0"/>
+    <poi id="47569243#1.12.13" type="yield" color="red" x="2653.07" y="1569.90" angle="0"/>
+    <poi id="47569243#2.9.08" type="yield" color="red" x="2650.52" y="1593.14" angle="0"/>
+    <poi id="47569243#4.19.39" type="yield" color="red" x="2634.20" y="1631.63" angle="0"/>
+    <poi id="47569243#6.10.11" type="yield" color="red" x="2634.35" y="1649.32" angle="0"/>
+    <poi id="47569243#7.52.49" type="yield" color="red" x="2645.74" y="1698.13" angle="0"/>
+    <poi id="47569244#0.48.15" type="yield" color="red" x="2586.07" y="1649.25" angle="0"/>
+    <poi id="47569248.0.00" type="yield" color="red" x="2515.89" y="1580.29" angle="0"/>
+    <poi id="47569280#1.257.96" type="right before left" color="255,153,0" x="3197.08" y="829.15" angle="0"/>
+    <poi id="47569280#2.13.38" type="right before left" color="255,153,0" x="3178.65" y="837.92" angle="0"/>
+    <poi id="47569280#4.3.79" type="right before left" color="255,153,0" x="3156.55" y="841.29" angle="0"/>
+    <poi id="47569280#5.16.31" type="right before left" color="255,153,0" x="3128.16" y="845.61" angle="0"/>
+    <poi id="47569280#6.2.31" type="yield" color="red" x="3115.85" y="847.48" angle="0"/>
+    <poi id="47569305#0.5.00" type="yield" color="red" x="3153.61" y="1092.41" angle="0"/>
+    <poi id="47569307.5.95" type="right before left" color="255,153,0" x="3164.59" y="1097.37" angle="0"/>
+    <poi id="47569312#0.1.12" type="right before left" color="255,153,0" x="3203.67" y="1568.51" angle="0"/>
+    <poi id="47569312#1.52.78" type="right before left" color="255,153,0" x="3264.51" y="1565.83" angle="0"/>
+    <poi id="47569315#1.14.37" type="priority" color="yellow" x="3234.17" y="1451.13" angle="0"/>
+    <poi id="47654407.65.45" type="priority" color="yellow" x="1744.02" y="1627.63" angle="0"/>
+    <poi id="47654408.57.95" type="priority" color="yellow" x="1752.98" y="1668.73" angle="0"/>
+    <poi id="47654466#0.22.52" type="priority" color="yellow" x="1658.45" y="1676.94" angle="0"/>
+    <poi id="48113628#0.235.95" type="priority" color="yellow" x="3319.02" y="561.91" angle="0"/>
+    <poi id="48114469#0.95.65" type="yield" color="red" x="2749.58" y="852.83" angle="0"/>
+    <poi id="48114471#0.0.00" type="yield" color="red" x="2625.16" y="802.95" angle="0"/>
+    <poi id="48114471#1.6.06" type="yield" color="red" x="2615.83" y="804.60" angle="0"/>
+    <poi id="48114527#0.33.04" type="yield" color="red" x="1763.14" y="1660.15" angle="0"/>
+    <poi id="48114527#1.32.09" type="yield" color="red" x="1768.93" y="1702.20" angle="0"/>
+    <poi id="48114531.13.83" type="yield" color="red" x="1654.99" y="1667.63" angle="0"/>
+    <poi id="48485713.1.22" type="priority" color="yellow" x="2589.68" y="757.21" angle="0"/>
+    <poi id="48485714#0.17.73" type="yield" color="red" x="2594.46" y="671.76" angle="0"/>
+    <poi id="48485714#1.9.73" type="yield" color="red" x="2599.77" y="651.83" angle="0"/>
+    <poi id="4868239#1.18.64" type="priority" color="yellow" x="1771.07" y="844.30" angle="0"/>
+    <poi id="4868239#2.32.32" type="priority" color="yellow" x="1736.79" y="870.94" angle="0"/>
+    <poi id="4868239#3.6.58" type="yield" color="red" x="1721.60" y="882.38" angle="0"/>
+    <poi id="4868239#4.187.95" type="yield" color="red" x="1568.67" y="1009.50" angle="0"/>
+    <poi id="489188596.32.32" type="yield" color="red" x="3215.81" y="1604.29" angle="0"/>
+    <poi id="4909717#0.32.54" type="priority" color="yellow" x="3226.21" y="1477.24" angle="0"/>
+    <poi id="4909717#3.2.51" type="priority" color="yellow" x="3254.46" y="1473.50" angle="0"/>
+    <poi id="4909717#4.118.30" type="priority" color="yellow" x="3294.04" y="1384.90" angle="0"/>
+    <poi id="4909717#5.5.91" type="priority" color="yellow" x="3290.21" y="1370.02" angle="0"/>
+    <poi id="4909717#6.14.65" type="priority" color="yellow" x="3283.71" y="1343.73" angle="0"/>
+    <poi id="4909717#7.28.87" type="priority" color="yellow" x="3274.14" y="1303.53" angle="0"/>
+    <poi id="4909717#8.8.70" type="yield" color="red" x="3269.09" y="1283.07" angle="0"/>
+    <poi id="4909721#0.164.19" type="yield" color="red" x="2789.85" y="1673.90" angle="0"/>
+    <poi id="491516482#0.0.00" type="yield" color="red" x="2104.68" y="991.37" angle="0"/>
+    <poi id="491516482#1.52.64" type="yield" color="red" x="2041.75" y="994.36" angle="0"/>
+    <poi id="491516482#2.3.87" type="yield" color="red" x="2024.64" y="993.25" angle="0"/>
+    <poi id="491516482#3.2.46" type="priority" color="yellow" x="2014.40" y="992.80" angle="0"/>
+    <poi id="491516483#0.63.48" type="right before left" color="255,153,0" x="2046.82" y="925.61" angle="0"/>
+    <poi id="491516483#1.22.16" type="yield" color="red" x="2083.76" y="917.86" angle="0"/>
+    <poi id="491516483#2.69.23" type="priority" color="yellow" x="2164.49" y="906.58" angle="0"/>
+    <poi id="491516483#3.8.03" type="yield" color="red" x="2181.57" y="905.87" angle="0"/>
+    <poi id="493547204.0.00" type="priority" color="yellow" x="2294.74" y="725.79" angle="0"/>
+    <poi id="493547205.7.20" type="yield" color="red" x="2285.21" y="732.28" angle="0"/>
+    <poi id="493547206#0.149.41" type="priority" color="yellow" x="2307.81" y="872.75" angle="0"/>
+    <poi id="493547206#1.167.71" type="yield" color="red" x="2305.47" y="733.19" angle="0"/>
+    <poi id="493547207.126.28" type="priority" color="yellow" x="2297.37" y="740.60" angle="0"/>
+    <poi id="49896550.0.00" type="yield" color="red" x="2667.66" y="608.95" angle="0"/>
+    <poi id="49897543.7.91" type="yield" color="red" x="2110.19" y="1550.25" angle="0"/>
+    <poi id="5045577#0.0.00" type="priority" color="yellow" x="2077.65" y="1269.29" angle="0"/>
+    <poi id="5045577#1.15.37" type="priority" color="yellow" x="2098.18" y="1266.60" angle="0"/>
+    <poi id="5045577#2.11.30" type="priority" color="yellow" x="2117.64" y="1264.23" angle="0"/>
+    <poi id="5046168#0.367.56" type="yield" color="red" x="3022.09" y="445.69" angle="0"/>
+    <poi id="5094886#1.0.00" type="priority" color="yellow" x="2112.37" y="1534.66" angle="0"/>
+    <poi id="5094886#2.8.83" type="priority" color="yellow" x="2116.60" y="1546.15" angle="0"/>
+    <poi id="5094886#3.21.39" type="priority" color="yellow" x="2141.24" y="1556.00" angle="0"/>
+    <poi id="5094886#4.23.69" type="priority" color="yellow" x="2165.97" y="1530.55" angle="0"/>
+    <poi id="5094886#5.0.00" type="priority" color="yellow" x="2166.63" y="1527.49" angle="0"/>
+    <poi id="5094886#6.45.95" type="priority" color="yellow" x="2117.54" y="1524.94" angle="0"/>
+    <poi id="5094887#0.76.25" type="priority" color="yellow" x="2157.30" y="1440.12" angle="0"/>
+    <poi id="5094887#1.30.87" type="yield" color="red" x="2149.58" y="1400.88" angle="0"/>
+    <poi id="5094891#0.27.65" type="priority" color="yellow" x="2734.73" y="1469.58" angle="0"/>
+    <poi id="5094891#1.11.30" type="priority" color="yellow" x="2718.74" y="1475.59" angle="0"/>
+    <poi id="5094891#2.21.21" type="priority" color="yellow" x="2712.92" y="1502.15" angle="0"/>
+    <poi id="5094891#3.12.12" type="priority" color="yellow" x="2725.56" y="1515.67" angle="0"/>
+    <poi id="5094891#4.24.03" type="priority" color="yellow" x="2753.84" y="1508.54" angle="0"/>
+    <poi id="5094891#5.11.34" type="priority" color="yellow" x="2759.21" y="1492.32" angle="0"/>
+    <poi id="5094892#1.23.91" type="priority" color="yellow" x="2737.32" y="1462.98" angle="0"/>
+    <poi id="5094893#1.40.42" type="priority" color="yellow" x="2767.87" y="1419.66" angle="0"/>
+    <poi id="5094894.15.11" type="yield" color="red" x="2366.21" y="1310.60" angle="0"/>
+    <poi id="5094896#0.20.11" type="priority" color="yellow" x="2441.64" y="1473.38" angle="0"/>
+    <poi id="5094896#1.11.36" type="yield" color="red" x="2444.92" y="1496.99" angle="0"/>
+    <poi id="510329102#0.100.71" type="priority" color="yellow" x="3167.69" y="1534.77" angle="0"/>
+    <poi id="510329102#1.231.06" type="right before left" color="255,153,0" x="3134.47" y="1293.63" angle="0"/>
+    <poi id="52135872#0.5.01" type="yield" color="red" x="2105.67" y="1259.17" angle="0"/>
+    <poi id="52135872#1.2.67" type="yield" color="red" x="2108.22" y="1274.01" angle="0"/>
+    <poi id="52135874#0.0.00" type="priority" color="yellow" x="2135.80" y="1120.11" angle="0"/>
+    <poi id="52135874#1.69.44" type="yield" color="red" x="2061.43" y="1124.99" angle="0"/>
+    <poi id="52135922.114.37" type="yield" color="red" x="2516.02" y="1313.57" angle="0"/>
+    <poi id="52631708#0.28.88" type="priority" color="yellow" x="1946.99" y="772.22" angle="0"/>
+    <poi id="52631708#1.44.16" type="yield" color="red" x="1992.42" y="746.01" angle="0"/>
+    <poi id="52631734#0.170.68" type="priority" color="yellow" x="2120.31" y="726.54" angle="0"/>
+    <poi id="52631734#2.118.17" type="priority" color="yellow" x="2257.84" y="712.52" angle="0"/>
+    <poi id="52631734#5.0.00" type="right before left" color="255,153,0" x="2292.87" y="706.99" angle="0"/>
+    <poi id="52631734#6.0.00" type="yield" color="red" x="2296.12" y="706.46" angle="0"/>
+    <poi id="52631734#7.0.00" type="priority" color="yellow" x="2303.47" y="706.94" angle="0"/>
+    <poi id="5322852#0.2.31" type="priority" color="yellow" x="2769.03" y="1407.69" angle="0"/>
+    <poi id="5322852#1.15.24" type="priority" color="yellow" x="2766.86" y="1380.11" angle="0"/>
+    <poi id="5322853#0.0.00" type="priority" color="yellow" x="2615.58" y="767.84" angle="0"/>
+    <poi id="5322853#1.0.00" type="priority" color="yellow" x="2615.83" y="757.04" angle="0"/>
+    <poi id="5322853#2.3.12" type="priority" color="yellow" x="2601.83" y="752.75" angle="0"/>
+    <poi id="5322853#3.0.00" type="priority" color="yellow" x="2596.11" y="759.76" angle="0"/>
+    <poi id="5322853#4.0.00" type="priority" color="yellow" x="2601.57" y="771.92" angle="0"/>
+    <poi id="5322853#5.6.17" type="priority" color="yellow" x="2611.65" y="771.73" angle="0"/>
+    <poi id="5326784.5.08" type="priority" color="yellow" x="2794.26" y="1702.82" angle="0"/>
+    <poi id="5326786.4.15" type="priority" color="yellow" x="2793.93" y="1703.31" angle="0"/>
+    <poi id="5326787#0.60.95" type="priority" color="yellow" x="3308.78" y="1626.59" angle="0"/>
+    <poi id="5326787#2.51.11" type="priority" color="yellow" x="3244.73" y="1634.90" angle="0"/>
+    <poi id="5326788.6.94" type="priority" color="yellow" x="2805.97" y="1687.03" angle="0"/>
+    <poi id="5326792.0.00" type="priority" color="yellow" x="2804.05" y="1688.69" angle="0"/>
+    <poi id="542517733#0.0.00" type="yield" color="red" x="2319.10" y="430.33" angle="0"/>
+    <poi id="54571144.2.00" type="yield" color="red" x="2931.63" y="1525.48" angle="0"/>
+    <poi id="548116382.0.97" type="priority" color="yellow" x="2320.16" y="431.81" angle="0"/>
+    <poi id="548116383.0.00" type="priority" color="yellow" x="1715.23" y="888.28" angle="0"/>
+    <poi id="548116385.0.00" type="yield" color="red" x="1727.68" y="902.49" angle="0"/>
+    <poi id="548124066.23.62" type="priority" color="yellow" x="1770.49" y="817.88" angle="0"/>
+    <poi id="55761626#1.0.00" type="priority" color="yellow" x="2658.05" y="1598.26" angle="0"/>
+    <poi id="55761626#2.0.00" type="priority" color="yellow" x="2656.86" y="1602.14" angle="0"/>
+    <poi id="55761626#3.7.62" type="priority" color="yellow" x="2661.43" y="1598.86" angle="0"/>
+    <poi id="55891710#0.7.94" type="right before left" color="255,153,0" x="2325.60" y="491.16" angle="0"/>
+    <poi id="55891711.50.51" type="right before left" color="255,153,0" x="2324.29" y="503.33" angle="0"/>
+    <poi id="55891715.89.66" type="yield" color="red" x="2331.13" y="644.40" angle="0"/>
+    <poi id="56051586#0.58.15" type="right before left" color="255,153,0" x="3293.05" y="1611.31" angle="0"/>
+    <poi id="56051586#1.75.99" type="right before left" color="255,153,0" x="3296.14" y="1565.02" angle="0"/>
+    <poi id="56051588#1.6.64" type="right before left" color="255,153,0" x="3283.51" y="1563.64" angle="0"/>
+    <poi id="56051588#2.63.24" type="right before left" color="255,153,0" x="3315.75" y="1609.65" angle="0"/>
+    <poi id="56051589#0.1.74" type="right before left" color="255,153,0" x="3297.63" y="1620.01" angle="0"/>
+    <poi id="56051589#1.35.88" type="right before left" color="255,153,0" x="3290.92" y="1572.07" angle="0"/>
+    <poi id="569765777.14.82" type="priority" color="yellow" x="2999.55" y="591.05" angle="0"/>
+    <poi id="569765778.53.92" type="priority" color="yellow" x="2943.96" y="577.12" angle="0"/>
+    <poi id="569765779.28.82" type="priority" color="yellow" x="3013.57" y="567.84" angle="0"/>
+    <poi id="569766862#0-AddedOffRampEdge.88.63" type="priority" color="yellow" x="2524.77" y="662.87" angle="0"/>
+    <poi id="569766862#1.20.41" type="priority" color="yellow" x="2556.22" y="655.23" angle="0"/>
+    <poi id="573304461.230.27" type="priority" color="yellow" x="3120.31" y="1085.17" angle="0"/>
+    <poi id="573304463#0.203.24" type="priority" color="yellow" x="3108.95" y="884.75" angle="0"/>
+    <poi id="573304463#1.13.58" type="priority" color="yellow" x="3105.43" y="857.88" angle="0"/>
+    <poi id="573304465.120.87" type="priority" color="yellow" x="3087.67" y="839.62" angle="0"/>
+    <poi id="58743224.36.45" type="yield" color="red" x="1650.97" y="1639.58" angle="0"/>
+    <poi id="604775926#0.0.23" type="yield" color="red" x="2696.68" y="1011.31" angle="0"/>
+    <poi id="621398945#0.5.34" type="priority" color="yellow" x="2816.26" y="1117.76" angle="0"/>
+    <poi id="630680455#1.20.20" type="priority" color="yellow" x="2743.85" y="755.22" angle="0"/>
+    <poi id="630680457#0.5.33" type="priority" color="yellow" x="2631.06" y="759.99" angle="0"/>
+    <poi id="630680457#2.2.70" type="priority" color="yellow" x="2656.21" y="756.83" angle="0"/>
+    <poi id="630680457#3.2.05" type="priority" color="yellow" x="2670.78" y="754.60" angle="0"/>
+    <poi id="630680457#4.2.62" type="priority" color="yellow" x="2685.82" y="752.30" angle="0"/>
+    <poi id="630680457#5.3.37" type="priority" color="yellow" x="2701.65" y="749.88" angle="0"/>
+    <poi id="630680457#6.2.17" type="priority" color="yellow" x="2716.28" y="747.65" angle="0"/>
+    <poi id="630680457#7.0.00" type="priority" color="yellow" x="2728.77" y="745.78" angle="0"/>
+    <poi id="630680457#8.0.00" type="yield" color="red" x="2735.18" y="744.85" angle="0"/>
+    <poi id="63530495#0.1786.27" type="priority" color="yellow" x="1688.13" y="813.97" angle="0"/>
+    <poi id="63530495#11.0.32" type="yield" color="red" x="1952.17" y="765.14" angle="0"/>
+    <poi id="63530495#12.0.00" type="right before left" color="255,153,0" x="1957.07" y="772.99" angle="0"/>
+    <poi id="63530495#2.89.82" type="priority" color="yellow" x="1787.09" y="804.07" angle="0"/>
+    <poi id="63530495#3.0.00" type="yield" color="red" x="1792.93" y="802.72" angle="0"/>
+    <poi id="63530495#4.3.09" type="right before left" color="255,153,0" x="1802.02" y="795.54" angle="0"/>
+    <poi id="63530495#5.19.43" type="right before left" color="255,153,0" x="1828.12" y="784.16" angle="0"/>
+    <poi id="63530495#6.2.52" type="priority" color="yellow" x="1838.43" y="782.04" angle="0"/>
+    <poi id="63530495#9.2.08" type="yield" color="red" x="1940.56" y="758.34" angle="0"/>
+    <poi id="63906910.114.45" type="priority" color="yellow" x="2428.12" y="1445.28" angle="0"/>
+    <poi id="654399242#0.80.13" type="priority" color="yellow" x="2003.72" y="545.55" angle="0"/>
+    <poi id="655270062#1.0.00" type="yield" color="red" x="2023.46" y="638.82" angle="0"/>
+    <poi id="655270066#1.19.29" type="priority" color="yellow" x="2171.89" y="540.12" angle="0"/>
+    <poi id="655270066#2.151.54" type="priority" color="yellow" x="2033.01" y="633.41" angle="0"/>
+    <poi id="668632632#0.6.47" type="yield" color="red" x="2001.78" y="1783.53" angle="0"/>
+    <poi id="668801471#0.72.92" type="right before left" color="255,153,0" x="2375.80" y="693.69" angle="0"/>
+    <poi id="668801471#1.169.83" type="right before left" color="255,153,0" x="2553.01" y="674.43" angle="0"/>
+    <poi id="668801471#2.0.00" type="yield" color="red" x="2557.57" y="676.76" angle="0"/>
+    <poi id="668801471#3.0.08" type="yield" color="red" x="2566.70" y="670.64" angle="0"/>
+    <poi id="668801471#4.0.00" type="yield" color="red" x="2579.05" y="668.47" angle="0"/>
+    <poi id="668801472.39.33" type="priority" color="yellow" x="2392.20" y="736.08" angle="0"/>
+    <poi id="671550129#0.0.00" type="priority" color="yellow" x="1986.49" y="1701.24" angle="0"/>
+    <poi id="671550129#1.313.01" type="priority" color="yellow" x="2150.38" y="1589.16" angle="0"/>
+    <poi id="68310781#0.0.00" type="priority" color="yellow" x="2017.75" y="632.74" angle="0"/>
+    <poi id="68310781#1.2.66" type="yield" color="red" x="2018.22" y="648.76" angle="0"/>
+    <poi id="68310781#2.0.00" type="yield" color="red" x="2019.19" y="662.48" angle="0"/>
+    <poi id="725249379#0.0.00" type="priority" color="yellow" x="2485.93" y="781.99" angle="0"/>
+    <poi id="725249380#0.4.36" type="priority" color="yellow" x="2478.75" y="772.91" angle="0"/>
+    <poi id="725249380#1.0.00" type="priority" color="yellow" x="2479.39" y="779.53" angle="0"/>
+    <poi id="725249381#0.0.00" type="yield" color="red" x="2482.84" y="780.57" angle="0"/>
+    <poi id="725249381#1.11.09" type="priority" color="yellow" x="2486.09" y="787.29" angle="0"/>
+    <poi id="725249388#0.0.00" type="yield" color="red" x="2475.31" y="776.95" angle="0"/>
+    <poi id="725249388#1.0.00" type="yield" color="red" x="2480.63" y="775.22" angle="0"/>
+    <poi id="725272274#0.214.36" type="yield" color="red" x="3145.35" y="1083.73" angle="0"/>
+    <poi id="725272274#2.91.43" type="priority" color="yellow" x="3159.87" y="1199.46" angle="0"/>
+    <poi id="725272274#4.3.57" type="yield" color="red" x="3173.66" y="1272.14" angle="0"/>
+    <poi id="725272274#5.221.27" type="yield" color="red" x="3228.20" y="1469.79" angle="0"/>
+    <poi id="73530943#0.64.61" type="priority" color="yellow" x="2756.22" y="1310.51" angle="0"/>
+    <poi id="73530943#1.0.00" type="priority" color="yellow" x="2755.18" y="1302.72" angle="0"/>
+    <poi id="73530943#10.8.79" type="priority" color="yellow" x="2643.00" y="893.60" angle="0"/>
+    <poi id="73530943#12.34.65" type="priority" color="yellow" x="2630.36" y="836.24" angle="0"/>
+    <poi id="73530943#13.12.46" type="priority" color="yellow" x="2622.77" y="806.64" angle="0"/>
+    <poi id="73530943#14.19.35" type="priority" color="yellow" x="2615.87" y="779.06" angle="0"/>
+    <poi id="73530943#5.80.44" type="priority" color="yellow" x="2731.58" y="1130.55" angle="0"/>
+    <poi id="73530943#6.26.72" type="priority" color="yellow" x="2726.01" y="1091.83" angle="0"/>
+    <poi id="73530943#7.69.36" type="priority" color="yellow" x="2702.40" y="1018.34" angle="0"/>
+    <poi id="73530943#8.19.46" type="priority" color="yellow" x="2692.82" y="992.57" angle="0"/>
+    <poi id="73530943#9.84.30" type="priority" color="yellow" x="2651.33" y="907.66" angle="0"/>
+    <poi id="93686025#1.30.24" type="right before left" color="255,153,0" x="2057.87" y="914.11" angle="0"/>
+    <poi id="93686034.125.58" type="right before left" color="255,153,0" x="2052.20" y="875.03" angle="0"/>
+</additional>

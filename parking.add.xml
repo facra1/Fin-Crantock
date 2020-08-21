@@ -1,0 +1,17 @@
+<additional>
+
+	<parkingArea id="ParkAreaA" lane="4361218_0" startPos="10" endPos="170" roadsideCapacity="6" angle="0" length="7"/>
+	<parkingArea id="ParkAreaB" lane="-4361218_0" startPos="10" endPos="170" roadsideCapacity="6" angle="0" length="7"/>
+
+	<parkingArea id="ParkAreaC" lane="4361220#0_0" startPos="15" endPos="30" roadsideCapacity="1" angle="0" length="7"/>
+	<parkingArea id="ParkAreaD" lane="-4361220#0_0" startPos="5" endPos="20" roadsideCapacity="1" angle="0" length="7"/>
+
+	<parkingArea id="ParkAreaE" lane="4361220#1_0" startPos="5" endPos="40" roadsideCapacity="3" angle="0" length="7"/>
+	<parkingArea id="ParkAreaF" lane="-4361220#1_0" startPos="5" endPos="40" roadsideCapacity="3" angle="0" length="7"/>
+
+	<parkingArea id="ParkAreaG" lane="4361219_0" startPos="5" endPos="170" roadsideCapacity="6" angle="0" length="7"/>
+	<parkingArea id="ParkAreaH" lane="-4361219_0" startPos="5" endPos="170" roadsideCapacity="6" angle="0" length="7"/>
+
+	
+	
+</additional>
